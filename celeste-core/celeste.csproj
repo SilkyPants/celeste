@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\EliteAPI\EliteAPI\EliteAPI.csproj" />
+    <ProjectReference Include="..\modules\EliteAPI\EliteAPI\EliteAPI.csproj" />
   </ItemGroup>
 
 </Project>

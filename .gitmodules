@@ -1,0 +1,3 @@
+[submodule "modules/EliteAPI"]
+	path = modules/EliteAPI
+	url = git@github.com:SilkyPantsDan/EliteAPI.git

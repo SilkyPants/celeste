@@ -14,12 +14,11 @@ namespace celeste
         {
             DirectoryInfo journalDirectory = new DirectoryInfo("../ed-data/");
             EliteAPI = new EliteDangerousAPI(journalDirectory: journalDirectory, skipCatchUp: false);
-            EliteAPI.Logger.AddHandler(new ConsoleHandler());
+            Somfic.Logging.Logger.AddHandler(new ConsoleHandler());
 
             EliteAPI.Start();
 
             Thread.Sleep(-1);
-            Console.WriteLine("Hello World!");
         }
     }
 }

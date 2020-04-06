@@ -1,10 +1,7 @@
 {
 	"folders": [
 		{
-			"path": "celeste"
-		},
-		{
-			"path": "EliteAPI"
+			"path": "."
 		}
 	],
 	"settings": {}
