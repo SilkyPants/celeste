@@ -12,13 +12,23 @@ namespace celeste
 
         private static void Main(string[] args)
         {
-            DirectoryInfo journalDirectory = new DirectoryInfo("../ed-data/");
+            DirectoryInfo journalDirectory = new DirectoryInfo("../../ed-data/");
             EliteAPI = new EliteDangerousAPI(journalDirectory: journalDirectory, skipCatchUp: false);
             Somfic.Logging.Logger.AddHandler(new ConsoleHandler());
 
-            EliteAPI.Start();
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+                    Console.WriteLine($"User folder is: {path}");
 
-            Thread.Sleep(-1);
+            EliteAPI.Start();
+            
+            while(EliteAPI.IsRunning) {
+                var keyInfo = Console.ReadKey();
+
+                if (keyInfo.Key == ConsoleKey.Q) {
+                    Console.WriteLine("Quitting...");
+                    EliteAPI.Stop();
+                }
+            }
         }
     }
 }
