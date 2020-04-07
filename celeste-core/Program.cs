@@ -13,19 +13,21 @@ namespace celeste
 
         private static void Main(string[] args)
         {
-            DirectoryInfo journalDirectory = new DirectoryInfo("../../ed-data/");
-            EliteAPI = new EliteDangerousAPI(journalDirectory: journalDirectory, skipCatchUp: false);
-            
+            //DirectoryInfo journalDirectory = new DirectoryInfo("../../ed-data/");
+            //EliteAPI = new EliteDangerousAPI(journalDirectory);
+            EliteAPI = new EliteDangerousAPI();
+
             Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
-            Logger.AddHandler(new ConsoleHandler(), Severity.Info, Severity.Warning, Severity.Error, Severity.Special, Severity.Success);
+            Logger.AddHandler(new ConsoleHandler(), Severity.Info, Severity.Verbose, Severity.Debug, Severity.Warning, Severity.Error, Severity.Special, Severity.Success);
 
             EliteAPI.OnReset += (s, e) => {
                 EliteAPI.Events.CommanderEvent += HandleCommanderInfo;
                 EliteAPI.Events.AllEvent += HandleEvent;
-                EliteAPI.Events.ShutdownEvent += HandleShutdown;
             };
 
             EliteAPI.Start();
+
+            EliteAPI.Events.ShutdownEvent += HandleShutdown;
 
             while (EliteAPI.IsRunning) {
                 
@@ -60,8 +62,7 @@ namespace celeste
                 var eventBase = ev as EliteAPI.Events.EventBase;
                 Console.WriteLine($"Event Handled: {eventBase}");
             }
-
-            if (ev is Newtonsoft.Json.Linq.JObject)
+            else if (ev is Newtonsoft.Json.Linq.JObject)
             {
                 var json = ev as Newtonsoft.Json.Linq.JObject;
                 Console.WriteLine($"Raw event: {json}");
