@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
 
-namespace celeste
+namespace Celeste
 {
     /*
     public class Program
@@ -48,7 +48,7 @@ namespace celeste
             Console.CancelKeyPress += (s,e) => {
                     Console.WriteLine("Quitting...");
                     WebHost.StopAsync().Wait();
-                    EliteAPI.Stop();
+                    //EliteAPI.Stop();
             };
 
             Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
@@ -59,7 +59,7 @@ namespace celeste
                 EliteAPI.Events.AllEvent += HandleEvent;
             };
 
-            EliteAPI.Start();
+            //EliteAPI.Start();
 
             WebHost = CreateHost(args);
             WebHost.Run();

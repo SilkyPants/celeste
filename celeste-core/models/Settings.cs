@@ -1,5 +1,4 @@
-﻿using System;
-namespace celeste
+﻿namespace Celeste.Models
 {
     public class Settings
     {
@@ -8,9 +7,5 @@ namespace celeste
 
         public bool EnableWebSocket { get; set; }
         public int WebSocketPort { get; set; }
-
-        public Settings()
-        {
-        }
     }
 }
