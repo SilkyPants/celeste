@@ -33,6 +33,7 @@ namespace celeste
     class MainClass
     {
         private static EliteDangerousAPI EliteAPI;
+        private static IHost WebHost;
 
         private static void Main(string[] args)
         {
@@ -44,6 +45,12 @@ namespace celeste
                 EliteAPI = new EliteDangerousAPI(journalDirectory);
             }
 
+            Console.CancelKeyPress += (s,e) => {
+                    Console.WriteLine("Quitting...");
+                    WebHost.StopAsync().Wait();
+                    EliteAPI.Stop();
+            };
+
             Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
             Logger.AddHandler(new ConsoleHandler(), Severity.Info, Severity.Verbose, Severity.Warning, Severity.Error, Severity.Success);
 
@@ -54,27 +61,8 @@ namespace celeste
 
             EliteAPI.Start();
 
-            var host = Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder
-                    .UseStartup<Startup>()
-                    .UseWebRoot("webapp");
-                }).Build();
-
-            host.RunAsync();
-
-            Console.WriteLine("Hit q to stop");
-            while (EliteAPI.IsRunning) {
-                
-                var keyInfo = Console.ReadKey(intercept: true);
-
-                if (keyInfo.Key == ConsoleKey.Q) {
-                    Console.WriteLine("Quitting...");
-                    host.StopAsync().Wait();
-                    EliteAPI.Stop();
-                }
-            }
+            WebHost = CreateHost(args);
+            WebHost.Run();
         }
 
         private static void HandleShutdown(object sender, EliteAPI.Events.ShutdownInfo e)
@@ -115,11 +103,14 @@ namespace celeste
         //
         //
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
+        public static IHost CreateHost(string[] args) =>
+                Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
-                });
+                    webBuilder
+                    .UseStartup<Startup>()
+                    .UseWebRoot("web-ui")
+                    .UseUrls("https://localhost:5001","http://localhost:5000");
+                }).Build();
     }
 }
