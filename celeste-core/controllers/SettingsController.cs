@@ -43,7 +43,7 @@ namespace Celeste.Controllers
             {
                 return BadRequest("ErrorCode.CouldNotUpdateItem.ToString()");
             }
-            return Ok();
+            return Ok(_currentSettings);
         }
     }
 }
