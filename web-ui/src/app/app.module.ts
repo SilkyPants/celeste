@@ -4,6 +4,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatButtonModule } from '@angular/material/button'
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +16,9 @@ import { HttpModule } from '@angular/http';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
