@@ -1,10 +1,4 @@
 ﻿using System;
-using System.IO;
-using System.Runtime.InteropServices;
-
-using EliteAPI;
-using Somfic.Logging;
-using Somfic.Logging.Handlers;
 
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
@@ -38,7 +32,7 @@ namespace Celeste
                 webBuilder
                 .UseStartup<CelesteApi>()
                 .UseWebRoot("web-ui")
-                .UseUrls("https://localhost:5001","http://localhost:5000");
+                .UseUrls("https://*:5001","http://*:5000");
             }).Build();
     }
 }
