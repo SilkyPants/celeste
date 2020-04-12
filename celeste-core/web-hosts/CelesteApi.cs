@@ -44,7 +44,14 @@ namespace Celeste
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            /// 
+            /// SPA / Host Files
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             
+            ///
+            /// API
             app.UseCors("CorsPolicy");
             app.UseHttpsRedirection();
             app.UseRouting();
@@ -57,7 +64,6 @@ namespace Celeste
 
             ///
             /// Websocket stuff
-
             // app.UseWebSockets();
 
             // app.Use(async (context, next) =>
