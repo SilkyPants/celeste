@@ -1,4 +1,5 @@
 using System;
+using Celeste.Services;
 using Celeste.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -9,23 +10,17 @@ namespace Celeste.Controllers
     [Route("api/[controller]")]
     public class SettingsController : ControllerBase
     {
-        private static Settings _currentSettings = new Settings()
-        {
-            JournalDirectory = "JournalDirectory",
-            BindingsDirectory = "BindingsDirectory",
-            EnableWebSocket = true,
-            WebSocketPort = 83403,
-        };
-
         private readonly ILogger<SettingsController> _logger;
+        private readonly SettingsService _settings;
 
-        public SettingsController(ILogger<SettingsController> logger)
+        public SettingsController(ILogger<SettingsController> logger, SettingsService settings)
         {
             _logger = logger;
+            _settings = settings;
         }
 
         [HttpGet]
-        public Settings Get() { return _currentSettings; }
+        public Settings Get() => _settings.Get();
 
         [HttpPut]
         public IActionResult Edit([FromBody] Settings newSettings)
@@ -36,14 +31,14 @@ namespace Celeste.Controllers
                 {
                     return BadRequest("ErrorCode.TodoItemNameAndNotesRequired.ToString()");
                 }
-                
-                _currentSettings = newSettings;
+
+                _settings.Set(newSettings);
             }
             catch (Exception)
             {
                 return BadRequest("ErrorCode.CouldNotUpdateItem.ToString()");
             }
-            return Ok();
+            return Ok(_settings.Get());
         }
     }
 }
