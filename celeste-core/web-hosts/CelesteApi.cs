@@ -33,6 +33,7 @@ namespace Celeste
             EliteApiService eliteApiService = new EliteApiService(settingsService);
             services.AddSingleton(sp => settingsService);
             services.AddSingleton(sp => eliteApiService);
+            services.AddSingleton<RoutePlanningService>();
 
             services.AddControllers();
         }
