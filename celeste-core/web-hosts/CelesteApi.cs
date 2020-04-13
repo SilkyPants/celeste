@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Celeste.Services;
+using Celeste.Services.Spanch;
+using System;
 
 namespace Celeste
 {
@@ -31,9 +33,17 @@ namespace Celeste
             // Specifically creating these so they are initialised ASAP
             SettingsService settingsService = new SettingsService();
             EliteApiService eliteApiService = new EliteApiService(settingsService);
+            
             services.AddSingleton(sp => settingsService);
             services.AddSingleton(sp => eliteApiService);
             services.AddSingleton<RoutePlanningService>();
+
+            services.AddScoped<RoadToRichesRouteService>();
+            services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client =>
+            {
+                client.BaseAddress = new Uri("http://www.google.com");
+            });
+
 
             services.AddControllers();
         }
