@@ -9,16 +9,6 @@ using Newtonsoft.Json.Converters;
 namespace Celeste.Models
 {
     [System.Serializable]
-    public class R2RRouteResponse
-    {
-        [JsonProperty("result")]
-        public List<RouteSystem> Systems { get; set; } = new List<RouteSystem>();
-
-        [JsonProperty("status")]
-        public string Status { get; set; }
-    }
-
-    [System.Serializable]
     public class Route
     {
         public List<RouteSystem> Systems { get; set; } = new List<RouteSystem>();

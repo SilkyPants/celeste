@@ -41,7 +41,8 @@ namespace Celeste
             services.AddScoped<RoadToRichesRouteService>();
             services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client =>
             {
-                client.BaseAddress = new Uri("http://www.google.com");
+                client.BaseAddress = new Uri("https://spansh.co.uk");
+                client.MaxResponseContentBufferSize = 256000;
             });
 
 
