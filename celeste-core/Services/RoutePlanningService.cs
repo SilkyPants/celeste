@@ -79,7 +79,7 @@ namespace Celeste.Services
 
             var body = bodies?.FirstOrDefault(b => b.Id64 == bodyId64);
             if (body == null) return false;
-            
+
             body.Visited = true;
             return true;
         }

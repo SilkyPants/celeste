@@ -10,6 +10,7 @@ namespace Celeste.Services.Spanch
     public interface IRoadToRichesRouteService
     {
         public Task<string> GenerateRoute(R2RRouteParameters parameters);
+        public Task<R2RRouteResponse> PollJob(string jobId);
     }
 
     public class RoadToRichesRouteService : IRoadToRichesRouteService
@@ -32,7 +33,7 @@ namespace Celeste.Services.Spanch
 
         public async Task<R2RRouteResponse> PollJob(string jobId)
         {            
-            using(var response = await this._httpClient.GetAsync($"/api/results?{jobId}")) {
+            using(var response = await this._httpClient.GetAsync($"/api/results/{jobId}")) {
                 var content = await response.Content.ReadAsStringAsync();
                 var r2rResponse = JsonConvert.DeserializeObject<R2RRouteResponse>(content);
                 
