@@ -27,7 +27,7 @@ namespace Celeste.Controllers
 
         // GET api/<controller>/5
         [HttpGet("{id}")]
-        public Models.Route Get(int id)
+        public Models.Route Get(Guid id)
         {
             return this._planningService.GetRouteWithId(id: id);
         }
@@ -40,19 +40,15 @@ namespace Celeste.Controllers
             {
                 if (route == null || !ModelState.IsValid)
                 {
-                    return BadRequest("ErrorCode.TodoItemNameAndNotesRequired.ToString()");
+                    return BadRequest("Cannot add empty route");
                 }
-                // TODO: Parse CSV input to Route, Add, then return ID
+
                 var id = this._planningService.AddRoute(route);
-
-                if (id < 0)
-                    return Ok();
-
                 return Ok(id);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return BadRequest("ErrorCode.CouldNotUpdateItem.ToString()");
+                return BadRequest(ex.Message);
             }
         }
 
@@ -65,18 +61,37 @@ namespace Celeste.Controllers
             return Ok();
         }
 
+        // POST api/<controller>
+        [HttpPost]
+        [Route("api/[controller]/spansh")]
+        public IActionResult Post([FromBody]Models.Spansh.R2RRouteParameters parameters)
+        {
+            // TODO: Parse CSV input to Route, Add, then return ID
+            return Ok();
+        }
+
         // PUT api/<controller>/5
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody]string value)
+        public IActionResult Put(Guid id, [FromBody]Route updatedRoute)
         {
-            // TODO: Not sure what to do here
-            // Do we have multiple PUTs where we update depending on type? 
+            if (id != updatedRoute.Id) return BadRequest("Id mismatch with route");
+            
+            this._planningService.UpdateRoute(id, updatedRoute);
+
+            return Ok(updatedRoute);
+        }
+
+        // PUT api/<controller>/5
+        [HttpPut("{routeId}/visited/{bodyId}")]
+        public IActionResult MarkBodyVisited(Guid routeId, string bodyId)
+        {
+            if (!this._planningService.MarkBodyVisited(routeId, bodyId)) return BadRequest();
             return Ok();
         }
 
         // DELETE api/<controller>/5
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(Guid id)
         {
             this._planningService.DeleteRouteWithId(id: id);
             return Ok();

@@ -11,14 +11,14 @@ namespace Celeste.Models
     [System.Serializable]
     public class Route
     {
-        public List<RouteSystem> Systems { get; set; } = new List<RouteSystem>();
+        public List<StarSystem> Systems { get; set; } = new List<StarSystem>();
 
-        public int Id { get; set; } = -1;
+        public Guid Id { get; set; } = Guid.NewGuid();
     }
 
 
     [System.Serializable]
-    public class RouteSystem
+    public class StarSystem
     {
         [JsonProperty("bodies")]
         public List<Body> Bodies { get; set; } = new List<Body>();
@@ -68,6 +68,9 @@ namespace Celeste.Models
 
         [JsonProperty("type")]
         public string Type { get; set; }
+
+        [JsonProperty("visited")]
+        public bool Visited {get;set;}
     }
     [JsonConverter(typeof(StringEnumConverter))]
     public enum Subtype { AmmoniaWorld, EarthLikeWorld, HighMetalContentWorld, WaterWorld };

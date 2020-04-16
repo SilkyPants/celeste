@@ -38,13 +38,10 @@ namespace Celeste
             services.AddSingleton(sp => eliteApiService);
             services.AddSingleton<RoutePlanningService>();
 
-            services.AddScoped<RoadToRichesRouteService>();
-            services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client =>
-            {
+            services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client => {
                 client.BaseAddress = new Uri("https://spansh.co.uk");
                 client.MaxResponseContentBufferSize = 256000;
             });
-
 
             services.AddControllers();
         }
