@@ -1,0 +1,4450 @@
+{
+    "result": [
+        {
+            "bodies": [],
+            "jumps": 0,
+            "name": "Belobog",
+            "x": -13.34375,
+            "y": 53.78125,
+            "z": 12.5625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 318,
+                    "estimated_mapping_value": 908463,
+                    "estimated_scan_value": 272539,
+                    "id": 36030147509356923,
+                    "id64": "36030147509356923",
+                    "is_terraformable": true,
+                    "name": "Ross 1001 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Ross 1001",
+            "x": -113.96875,
+            "y": 38.5,
+            "z": 171.34375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 231,
+                    "estimated_mapping_value": 841416,
+                    "estimated_scan_value": 252425,
+                    "id": 108088124042679034,
+                    "id64": "108088124042679034",
+                    "is_terraformable": true,
+                    "name": "Col 285 Sector VV-C c13-6 A 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 318,
+                    "estimated_mapping_value": 839109,
+                    "estimated_scan_value": 251733,
+                    "id": 144116921061643002,
+                    "id64": "144116921061643002",
+                    "is_terraformable": true,
+                    "name": "Col 285 Sector VV-C c13-6 A 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Col 285 Sector VV-C c13-6",
+            "x": -85.71875,
+            "y": 35.15625,
+            "z": 212.25
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 87,
+                    "estimated_mapping_value": 854129,
+                    "estimated_scan_value": 256239,
+                    "id": 324259842246321689,
+                    "id64": "324259842246321689",
+                    "is_terraformable": true,
+                    "name": "Col 285 Sector CV-Y b29-0 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Col 285 Sector CV-Y b29-0",
+            "x": -143.6875,
+            "y": 57.9375,
+            "z": 277.28125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1580,
+                    "estimated_mapping_value": 863299,
+                    "estimated_scan_value": 258990,
+                    "id": 36029082340706691,
+                    "id64": "36029082340706691",
+                    "is_terraformable": true,
+                    "name": "HIP 88516 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "HIP 88516",
+            "x": -153.875,
+            "y": 58.5,
+            "z": 278.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1689,
+                    "estimated_mapping_value": 642473,
+                    "estimated_scan_value": 192742,
+                    "id": 540434302190487939,
+                    "id64": "540434302190487939",
+                    "is_terraformable": false,
+                    "name": "Col 359 Sector IL-X d1-68 9",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector IL-X d1-68",
+            "x": -153.5,
+            "y": 18.8125,
+            "z": 293.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1294,
+                    "estimated_mapping_value": 610456,
+                    "estimated_scan_value": 183137,
+                    "id": 468374440409827715,
+                    "id64": "468374440409827715",
+                    "is_terraformable": true,
+                    "name": "HIP 90660 9",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "HIP 90660",
+            "x": -149.75,
+            "y": 13.625,
+            "z": 290.53125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1476,
+                    "estimated_mapping_value": 847946,
+                    "estimated_scan_value": 254384,
+                    "id": 108087088695478667,
+                    "id64": "108087088695478667",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector MR-V d2-20 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector MR-V d2-20",
+            "x": -177.34375,
+            "y": 44.03125,
+            "z": 313.53125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 386,
+                    "estimated_mapping_value": 860886,
+                    "estimated_scan_value": 258266,
+                    "id": 72060701279032082,
+                    "id64": "72060701279032082",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector SH-T c4-11 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Col 359 Sector SH-T c4-11",
+            "x": -169.3125,
+            "y": 46.15625,
+            "z": 330.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 637,
+                    "estimated_mapping_value": 866509,
+                    "estimated_scan_value": 259953,
+                    "id": 36031075188738451,
+                    "id64": "36031075188738451",
+                    "is_terraformable": false,
+                    "name": "Col 359 Sector PX-T d3-66 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Col 359 Sector PX-T d3-66",
+            "x": -238.875,
+            "y": 22.21875,
+            "z": 454.65625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 297,
+                    "estimated_mapping_value": 963046,
+                    "estimated_scan_value": 288914,
+                    "id": 36030529736282930,
+                    "id64": "36030529736282930",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector IB-M c8-6 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Col 359 Sector IB-M c8-6",
+            "x": -233.40625,
+            "y": 9.78125,
+            "z": 462.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 61,
+                    "estimated_mapping_value": 940239,
+                    "estimated_scan_value": 282072,
+                    "id": 612490216787289697,
+                    "id64": "612490216787289697",
+                    "is_terraformable": false,
+                    "name": "Col 359 Sector JB-A b16-0 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector JB-A b16-0",
+            "x": -250.65625,
+            "y": 26.28125,
+            "z": 474.3125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 394,
+                    "estimated_mapping_value": 1004789,
+                    "estimated_scan_value": 301437,
+                    "id": 72059876443984698,
+                    "id64": "72059876443984698",
+                    "is_terraformable": true,
+                    "name": "Scutum Dark Region AV-Y c8 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Scutum Dark Region AV-Y c8",
+            "x": -276.375,
+            "y": 27.40625,
+            "z": 500.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 392,
+                    "estimated_mapping_value": 870586,
+                    "estimated_scan_value": 261176,
+                    "id": 72059051877372738,
+                    "id64": "72059051877372738",
+                    "is_terraformable": true,
+                    "name": "Scutum Dark Region FB-X c1-5 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Scutum Dark Region FB-X c1-5",
+            "x": -250.53125,
+            "y": 15.40625,
+            "z": 536.4375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2630,
+                    "estimated_mapping_value": 666563,
+                    "estimated_scan_value": 199969,
+                    "id": 2630103086164609443,
+                    "id64": "2630103086164609443",
+                    "is_terraformable": false,
+                    "name": "Scutum Dark Region DL-Y d26 7",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Scutum Dark Region DL-Y d26",
+            "x": -249.3125,
+            "y": 28.84375,
+            "z": 544.8125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 718,
+                    "estimated_mapping_value": 641356,
+                    "estimated_scan_value": 192407,
+                    "id": 504404096405473699,
+                    "id64": "504404096405473699",
+                    "is_terraformable": true,
+                    "name": "Scutum Dark Region DL-Y d27 A 2",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Scutum Dark Region DL-Y d27",
+            "x": -245.53125,
+            "y": 25.53125,
+            "z": 552.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1663,
+                    "estimated_mapping_value": 836699,
+                    "estimated_scan_value": 251010,
+                    "id": 360289045768571299,
+                    "id64": "360289045768571299",
+                    "is_terraformable": true,
+                    "name": "Scutum Dark Region DL-Y d31 A 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Scutum Dark Region DL-Y d31",
+            "x": -260.96875,
+            "y": 37.28125,
+            "z": 576.875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1953,
+                    "estimated_mapping_value": 853229,
+                    "estimated_scan_value": 255969,
+                    "id": 324259256553444186,
+                    "id64": "324259256553444186",
+                    "is_terraformable": true,
+                    "name": "HIP 90652 A 5 a",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "HIP 90652",
+            "x": -302.625,
+            "y": 11.09375,
+            "z": 669.28125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 929,
+                    "estimated_mapping_value": 635049,
+                    "estimated_scan_value": 190515,
+                    "id": 72058188563745195,
+                    "id64": "72058188563745195",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector AQ-O d6-17 1",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector AQ-O d6-17",
+            "x": -341.25,
+            "y": -2.75,
+            "z": 687.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 660,
+                    "estimated_mapping_value": 951086,
+                    "estimated_scan_value": 285326,
+                    "id": 216174373072013747,
+                    "id64": "216174373072013747",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector EW-M d7-46 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector EW-M d7-46",
+            "x": -347.5,
+            "y": 26.0625,
+            "z": 712.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 25086,
+                    "estimated_mapping_value": 600399,
+                    "estimated_scan_value": 180120,
+                    "id": 864691448103045555,
+                    "id64": "864691448103045555",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector EW-M d7-9 B 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Col 359 Sector EW-M d7-9",
+            "x": -363.15625,
+            "y": 13.09375,
+            "z": 708.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 9972,
+                    "estimated_mapping_value": 870996,
+                    "estimated_scan_value": 261299,
+                    "id": 1008806430020471219,
+                    "id64": "1008806430020471219",
+                    "is_terraformable": false,
+                    "name": "Col 359 Sector EW-M d7-3 B 3",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Col 359 Sector EW-M d7-3",
+            "x": -373.0625,
+            "y": 5.9375,
+            "z": 708.375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 827,
+                    "estimated_mapping_value": 875123,
+                    "estimated_scan_value": 262537,
+                    "id": 108086985582709171,
+                    "id64": "108086985582709171",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector EW-M d7-17 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector EW-M d7-17",
+            "x": -365.75,
+            "y": -7.09375,
+            "z": 743.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 14848,
+                    "estimated_mapping_value": 615783,
+                    "estimated_scan_value": 184735,
+                    "id": 900722993884301755,
+                    "id64": "900722993884301755",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector HC-L d8-89 B 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 16111,
+                    "estimated_mapping_value": 624676,
+                    "estimated_scan_value": 187403,
+                    "id": 936751790903265723,
+                    "id64": "936751790903265723",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector HC-L d8-89 B 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Col 359 Sector HC-L d8-89",
+            "x": -407.46875,
+            "y": 35.40625,
+            "z": 824.5
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1082,
+                    "estimated_mapping_value": 894636,
+                    "estimated_scan_value": 268391,
+                    "id": 180144820122028475,
+                    "id64": "180144820122028475",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector HC-L d8-24 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector HC-L d8-24",
+            "x": -415.4375,
+            "y": 3.71875,
+            "z": 827.21875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 356,
+                    "estimated_mapping_value": 864193,
+                    "estimated_scan_value": 259258,
+                    "id": 36030804345754498,
+                    "id64": "36030804345754498",
+                    "is_terraformable": true,
+                    "name": "IC 1287 Sector ZU-Y c7 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "IC 1287 Sector ZU-Y c7",
+            "x": -407.5625,
+            "y": -4.46875,
+            "z": 872.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 849,
+                    "estimated_mapping_value": 900116,
+                    "estimated_scan_value": 270035,
+                    "id": 216175163329219011,
+                    "id64": "216175163329219011",
+                    "is_terraformable": false,
+                    "name": "IC 1287 Sector AQ-Y d69 A 3",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "IC 1287 Sector AQ-Y d69",
+            "x": -416.09375,
+            "y": 17.5625,
+            "z": 873.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 32,
+                    "estimated_mapping_value": 874879,
+                    "estimated_scan_value": 262464,
+                    "id": 216173447162767121,
+                    "id64": "216173447162767121",
+                    "is_terraformable": true,
+                    "name": "IC 1287 Sector DH-U b3-0 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "IC 1287 Sector DH-U b3-0",
+            "x": -440.71875,
+            "y": 20.1875,
+            "z": 900.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1862,
+                    "estimated_mapping_value": 603256,
+                    "estimated_scan_value": 180977,
+                    "id": 144116126182279619,
+                    "id64": "144116126182279619",
+                    "is_terraformable": true,
+                    "name": "IC 1287 Sector AQ-Y d27 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "IC 1287 Sector AQ-Y d27",
+            "x": -445.3125,
+            "y": 3.375,
+            "z": 893.25
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1116,
+                    "estimated_mapping_value": 868336,
+                    "estimated_scan_value": 260501,
+                    "id": 252202311080741323,
+                    "id64": "252202311080741323",
+                    "is_terraformable": false,
+                    "name": "IC 1287 Sector EW-W d1-21 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "IC 1287 Sector EW-W d1-21",
+            "x": -455.6875,
+            "y": -8.5625,
+            "z": 939.21875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1360,
+                    "estimated_mapping_value": 852579,
+                    "estimated_scan_value": 255774,
+                    "id": 108088325578951115,
+                    "id64": "108088325578951115",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector OO-H d10-56 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Col 359 Sector OO-H d10-56",
+            "x": -492.09375,
+            "y": -3.40625,
+            "z": 1001.8125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 495,
+                    "estimated_mapping_value": 948193,
+                    "estimated_scan_value": 284458,
+                    "id": 540432038331683746,
+                    "id64": "540432038331683746",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector GJ-N c21-0 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Col 359 Sector GJ-N c21-0",
+            "x": -499.53125,
+            "y": -21.75,
+            "z": 1018.5
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1129,
+                    "estimated_mapping_value": 938273,
+                    "estimated_scan_value": 281482,
+                    "id": 288231348601096659,
+                    "id64": "288231348601096659",
+                    "is_terraformable": false,
+                    "name": "Col 359 Sector SU-F d11-28 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Col 359 Sector SU-F d11-28",
+            "x": -507.6875,
+            "y": -8.71875,
+            "z": 1034.0625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 36166,
+                    "estimated_mapping_value": 835979,
+                    "estimated_scan_value": 250794,
+                    "id": 180144064191007187,
+                    "id64": "180144064191007187",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector SU-F d11-2 B 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Col 359 Sector SU-F d11-2",
+            "x": -488.0625,
+            "y": -3.5,
+            "z": 1037.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 727,
+                    "estimated_mapping_value": 875046,
+                    "estimated_scan_value": 262514,
+                    "id": 288233307106183643,
+                    "id64": "288233307106183643",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector WA-E d12-85 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Col 359 Sector WA-E d12-85",
+            "x": -532,
+            "y": 15.59375,
+            "z": 1130.875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 424,
+                    "estimated_mapping_value": 972999,
+                    "estimated_scan_value": 291900,
+                    "id": 108086748847805378,
+                    "id64": "108086748847805378",
+                    "is_terraformable": true,
+                    "name": "Col 359 Sector UH-G c25-1 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Col 359 Sector UH-G c25-1",
+            "x": -558.21875,
+            "y": -20.46875,
+            "z": 1176.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 731,
+                    "estimated_mapping_value": 600273,
+                    "estimated_scan_value": 180082,
+                    "id": 360288942622231011,
+                    "id64": "360288942622231011",
+                    "is_terraformable": true,
+                    "name": "Swoiwns BS-H d11-28 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1268,
+                    "estimated_mapping_value": 991023,
+                    "estimated_scan_value": 297307,
+                    "id": 396317739641194979,
+                    "id64": "396317739641194979",
+                    "is_terraformable": true,
+                    "name": "Swoiwns BS-H d11-28 8",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Swoiwns BS-H d11-28",
+            "x": -592.09375,
+            "y": -26.46875,
+            "z": 1192.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1061,
+                    "estimated_mapping_value": 604606,
+                    "estimated_scan_value": 181382,
+                    "id": 180146469355915747,
+                    "id64": "180146469355915747",
+                    "is_terraformable": true,
+                    "name": "Pru Euq FW-E d11-72 A 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Pru Euq FW-E d11-72",
+            "x": -600.96875,
+            "y": -22.96875,
+            "z": 1217.53125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 269,
+                    "estimated_mapping_value": 879106,
+                    "estimated_scan_value": 263732,
+                    "id": 36029429620642770,
+                    "id64": "36029429620642770",
+                    "is_terraformable": true,
+                    "name": "Swoiwns IB-M c24-2 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Swoiwns IB-M c24-2",
+            "x": -612.46875,
+            "y": -32.28125,
+            "z": 1259.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 297,
+                    "estimated_mapping_value": 607013,
+                    "estimated_scan_value": 182104,
+                    "id": 108087848225215442,
+                    "id64": "108087848225215442",
+                    "is_terraformable": true,
+                    "name": "Pru Euq RE-G c24-5 A 1",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Pru Euq RE-G c24-5",
+            "x": -628.4375,
+            "y": -19.15625,
+            "z": 1268.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2165,
+                    "estimated_mapping_value": 946206,
+                    "estimated_scan_value": 283862,
+                    "id": 468375745979222507,
+                    "id64": "468375745979222507",
+                    "is_terraformable": false,
+                    "name": "Pru Euq IC-D d12-40 A 8",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Pru Euq IC-D d12-40",
+            "x": -634,
+            "y": -15.875,
+            "z": 1328.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 362,
+                    "estimated_mapping_value": 918076,
+                    "estimated_scan_value": 275423,
+                    "id": 36030803943101402,
+                    "id64": "36030803943101402",
+                    "is_terraformable": true,
+                    "name": "Pru Euq VK-E c25-7 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 464,
+                    "estimated_mapping_value": 920646,
+                    "estimated_scan_value": 276194,
+                    "id": 72059600962065370,
+                    "id64": "72059600962065370",
+                    "is_terraformable": true,
+                    "name": "Pru Euq VK-E c25-7 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Pru Euq VK-E c25-7",
+            "x": -626.78125,
+            "y": 6.84375,
+            "z": 1326.90625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 923,
+                    "estimated_mapping_value": 837763,
+                    "estimated_scan_value": 251329,
+                    "id": 396317911423126003,
+                    "id64": "396317911423126003",
+                    "is_terraformable": true,
+                    "name": "Pru Euq MI-B d13-33 A 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Pru Euq MI-B d13-33",
+            "x": -659.25,
+            "y": -7.96875,
+            "z": 1344.03125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 970,
+                    "estimated_mapping_value": 987453,
+                    "estimated_scan_value": 296236,
+                    "id": 684548596812483059,
+                    "id64": "684548596812483059",
+                    "is_terraformable": true,
+                    "name": "Pru Euq MI-B d13-42 A 10",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 972,
+                    "estimated_mapping_value": 961323,
+                    "estimated_scan_value": 288397,
+                    "id": 720577393831447027,
+                    "id64": "720577393831447027",
+                    "is_terraformable": true,
+                    "name": "Pru Euq MI-B d13-42 A 11",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Pru Euq MI-B d13-42",
+            "x": -671.875,
+            "y": -20.34375,
+            "z": 1395.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1933,
+                    "estimated_mapping_value": 879963,
+                    "estimated_scan_value": 263989,
+                    "id": 288232963475245563,
+                    "id64": "288232963475245563",
+                    "is_terraformable": true,
+                    "name": "Pru Euq QO-Z d13-75 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Pru Euq QO-Z d13-75",
+            "x": -690.875,
+            "y": -20.1875,
+            "z": 1455.875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 414,
+                    "estimated_mapping_value": 931686,
+                    "estimated_scan_value": 279506,
+                    "id": 36029979175162874,
+                    "id64": "36029979175162874",
+                    "is_terraformable": true,
+                    "name": "Pru Euq JJ-X c28-4 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Pru Euq JJ-X c28-4",
+            "x": -719.0625,
+            "y": -1.34375,
+            "z": 1487.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 819,
+                    "estimated_mapping_value": 829739,
+                    "estimated_scan_value": 248922,
+                    "id": 180146881639221755,
+                    "id64": "180146881639221755",
+                    "is_terraformable": true,
+                    "name": "Pru Euq PO-Z d13-84 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1112,
+                    "estimated_mapping_value": 873166,
+                    "estimated_scan_value": 261950,
+                    "id": 216175678658185723,
+                    "id64": "216175678658185723",
+                    "is_terraformable": true,
+                    "name": "Pru Euq PO-Z d13-84 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Pru Euq PO-Z d13-84",
+            "x": -721.78125,
+            "y": -20.78125,
+            "z": 1494.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1866,
+                    "estimated_mapping_value": 983839,
+                    "estimated_scan_value": 295152,
+                    "id": 828663441274178051,
+                    "id64": "828663441274178051",
+                    "is_terraformable": false,
+                    "name": "Bleae Thua HA-A d32 7",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Bleae Thua HA-A d32",
+            "x": -759.6875,
+            "y": -12.65625,
+            "z": 1533.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2579,
+                    "estimated_mapping_value": 619883,
+                    "estimated_scan_value": 185965,
+                    "id": 1765413022760700419,
+                    "id64": "1765413022760700419",
+                    "is_terraformable": false,
+                    "name": "Bleae Thua HA-A d57 6",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Bleae Thua HA-A d57",
+            "x": -759.65625,
+            "y": -12.5,
+            "z": 1540.25
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1552,
+                    "estimated_mapping_value": 1007679,
+                    "estimated_scan_value": 302304,
+                    "id": 2017614911131077123,
+                    "id64": "2017614911131077123",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn DW-C d66 12",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Bleia Eohn DW-C d66",
+            "x": -764.4375,
+            "y": -44.6875,
+            "z": 1562.78125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1713,
+                    "estimated_mapping_value": 637069,
+                    "estimated_scan_value": 191121,
+                    "id": 468374440292387339,
+                    "id64": "468374440292387339",
+                    "is_terraformable": true,
+                    "name": "Bleae Thua LG-Y d2 AB 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Bleae Thua LG-Y d2",
+            "x": -776.59375,
+            "y": -10.9375,
+            "z": 1588.5625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1479,
+                    "estimated_mapping_value": 961046,
+                    "estimated_scan_value": 288314,
+                    "id": 216175644281670155,
+                    "id64": "216175644281670155",
+                    "is_terraformable": true,
+                    "name": "Bleae Thua KG-Y d83 A 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1804,
+                    "estimated_mapping_value": 1001249,
+                    "estimated_scan_value": 300375,
+                    "id": 252204441300634123,
+                    "id64": "252204441300634123",
+                    "is_terraformable": true,
+                    "name": "Bleae Thua KG-Y d83 A 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Bleae Thua KG-Y d83",
+            "x": -798.75,
+            "y": -21.96875,
+            "z": 1651.375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 26561,
+                    "estimated_mapping_value": 896399,
+                    "estimated_scan_value": 268920,
+                    "id": 828663303801670187,
+                    "id64": "828663303801670187",
+                    "is_terraformable": false,
+                    "name": "Bleae Thua ZE-R d4-28 C 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Bleae Thua ZE-R d4-28",
+            "x": -911.71875,
+            "y": -24.84375,
+            "z": 1902.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 512,
+                    "estimated_mapping_value": 938076,
+                    "estimated_scan_value": 281423,
+                    "id": 468375542865826930,
+                    "id64": "468375542865826930",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn BF-H c13-4 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 9,
+            "name": "Bleia Eohn BF-H c13-4",
+            "x": -1027.15625,
+            "y": -47.1875,
+            "z": 2078.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1113,
+                    "estimated_mapping_value": 955329,
+                    "estimated_scan_value": 286599,
+                    "id": 144116916305250899,
+                    "id64": "144116916305250899",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn MF-L d9-50 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Bleia Eohn MF-L d9-50",
+            "x": -1115.84375,
+            "y": -52.53125,
+            "z": 2333
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 125,
+                    "estimated_mapping_value": 839059,
+                    "estimated_scan_value": 251718,
+                    "id": 72060448714664265,
+                    "id64": "72060448714664265",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn YL-R b38-1 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Bleia Eohn YL-R b38-1",
+            "x": -1128.9375,
+            "y": -61.59375,
+            "z": 2334.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 687,
+                    "estimated_mapping_value": 618696,
+                    "estimated_scan_value": 185609,
+                    "id": 180144579452848723,
+                    "id64": "180144579452848723",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn MF-L d9-17 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1160,
+                    "estimated_mapping_value": 1025153,
+                    "estimated_scan_value": 307546,
+                    "id": 216173376471812691,
+                    "id64": "216173376471812691",
+                    "is_terraformable": false,
+                    "name": "Bleia Eohn MF-L d9-17 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Bleia Eohn MF-L d9-17",
+            "x": -1137.8125,
+            "y": -54.375,
+            "z": 2335.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2292,
+                    "estimated_mapping_value": 946893,
+                    "estimated_scan_value": 284068,
+                    "id": 360289492260604507,
+                    "id64": "360289492260604507",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn QL-J d10-44 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Bleia Eohn QL-J d10-44",
+            "x": -1170.5,
+            "y": -71.09375,
+            "z": 2395.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 22199,
+                    "estimated_mapping_value": 839166,
+                    "estimated_scan_value": 251750,
+                    "id": 540432652721703515,
+                    "id64": "540432652721703515",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn QL-J d10-20 CDE 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Bleia Eohn QL-J d10-20",
+            "x": -1163.53125,
+            "y": -55.5,
+            "z": 2387.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 278,
+                    "estimated_mapping_value": 931683,
+                    "estimated_scan_value": 279505,
+                    "id": 36030253314806970,
+                    "id64": "36030253314806970",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn KD-R c21-5 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Bleia Eohn KD-R c21-5",
+            "x": -1166.34375,
+            "y": -67.1875,
+            "z": 2426.21875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 415,
+                    "estimated_mapping_value": 850766,
+                    "estimated_scan_value": 255230,
+                    "id": 72057675877127370,
+                    "id64": "72057675877127370",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn RP-N c23-0 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Bleia Eohn RP-N c23-0",
+            "x": -1223.5,
+            "y": -87.625,
+            "z": 2514.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 234,
+                    "estimated_mapping_value": 601523,
+                    "estimated_scan_value": 180457,
+                    "id": 432347570212115666,
+                    "id64": "432347570212115666",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn VV-L c24-7 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 235,
+                    "estimated_mapping_value": 636126,
+                    "estimated_scan_value": 190838,
+                    "id": 396318773193151698,
+                    "id64": "396318773193151698",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn VV-L c24-7 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 429,
+                    "estimated_mapping_value": 1020419,
+                    "estimated_scan_value": 306126,
+                    "id": 468376367231079634,
+                    "id64": "468376367231079634",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn VV-L c24-7 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Bleia Eohn VV-L c24-7",
+            "x": -1202.4375,
+            "y": -76.15625,
+            "z": 2542.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1411,
+                    "estimated_mapping_value": 616016,
+                    "estimated_scan_value": 184805,
+                    "id": 144117775281932915,
+                    "id64": "144117775281932915",
+                    "is_terraformable": true,
+                    "name": "Bleia Eohn BE-E d13-75 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Bleia Eohn BE-E d13-75",
+            "x": -1261.1875,
+            "y": -97.59375,
+            "z": 2618.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 573,
+                    "estimated_mapping_value": 606386,
+                    "estimated_scan_value": 181916,
+                    "id": 504404439767960211,
+                    "id64": "504404439767960211",
+                    "is_terraformable": true,
+                    "name": "Drojeae TI-Z d1-37 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 15,
+            "name": "Drojeae TI-Z d1-37",
+            "x": -1406.78125,
+            "y": -84.0625,
+            "z": 2948.5
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 691,
+                    "estimated_mapping_value": 927503,
+                    "estimated_scan_value": 278251,
+                    "id": 396317948156777778,
+                    "id64": "396317948156777778",
+                    "is_terraformable": false,
+                    "name": "Drojeae TD-V c5-4 A 8",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Drojeae TD-V c5-4",
+            "x": -1442.34375,
+            "y": -70.1875,
+            "z": 3015.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1530,
+                    "estimated_mapping_value": 884559,
+                    "estimated_scan_value": 265368,
+                    "id": 288233409984055963,
+                    "id64": "288233409984055963",
+                    "is_terraformable": false,
+                    "name": "Drojeae WO-X d2-88 A 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1532,
+                    "estimated_mapping_value": 897173,
+                    "estimated_scan_value": 269152,
+                    "id": 252204612965091995,
+                    "id64": "252204612965091995",
+                    "is_terraformable": true,
+                    "name": "Drojeae WO-X d2-88 A 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1779,
+                    "estimated_mapping_value": 901146,
+                    "estimated_scan_value": 270344,
+                    "id": 396319801040947867,
+                    "id64": "396319801040947867",
+                    "is_terraformable": false,
+                    "name": "Drojeae WO-X d2-88 A 7",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Drojeae WO-X d2-88",
+            "x": -1497.25,
+            "y": -95.1875,
+            "z": 3083.5625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1088,
+                    "estimated_mapping_value": 604109,
+                    "estimated_scan_value": 181233,
+                    "id": 360290385529916067,
+                    "id64": "360290385529916067",
+                    "is_terraformable": true,
+                    "name": "Drojeae ZU-V d3-70 A 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Drojeae ZU-V d3-70",
+            "x": -1519.59375,
+            "y": -101.46875,
+            "z": 3122.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2100,
+                    "estimated_mapping_value": 604176,
+                    "estimated_scan_value": 181253,
+                    "id": 396317533281438371,
+                    "id64": "396317533281438371",
+                    "is_terraformable": true,
+                    "name": "Drojeae ZU-V d3-22 A 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 2108,
+                    "estimated_mapping_value": 946426,
+                    "estimated_scan_value": 283928,
+                    "id": 432346330300402339,
+                    "id64": "432346330300402339",
+                    "is_terraformable": false,
+                    "name": "Drojeae ZU-V d3-22 A 7",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Drojeae ZU-V d3-22",
+            "x": -1524.8125,
+            "y": -89.90625,
+            "z": 3153.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1408,
+                    "estimated_mapping_value": 1017323,
+                    "estimated_scan_value": 305197,
+                    "id": 216174510225722059,
+                    "id64": "216174510225722059",
+                    "is_terraformable": true,
+                    "name": "Drojeae TU-M d8-50 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 18,
+            "name": "Drojeae TU-M d8-50",
+            "x": -1711.96875,
+            "y": -125.625,
+            "z": 3529.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 861,
+                    "estimated_mapping_value": 624696,
+                    "estimated_scan_value": 187409,
+                    "id": 180145507031550683,
+                    "id64": "180145507031550683",
+                    "is_terraformable": true,
+                    "name": "Drojeae AH-J d10-44 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Drojeae AH-J d10-44",
+            "x": -1782.71875,
+            "y": -137.03125,
+            "z": 3704.375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 254,
+                    "estimated_mapping_value": 912723,
+                    "estimated_scan_value": 273817,
+                    "id": 252201660032390594,
+                    "id64": "252201660032390594",
+                    "is_terraformable": true,
+                    "name": "Drojeae HF-P c22-0 A 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Drojeae HF-P c22-0",
+            "x": -1782.09375,
+            "y": -141.59375,
+            "z": 3736.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1623,
+                    "estimated_mapping_value": 973319,
+                    "estimated_scan_value": 291996,
+                    "id": 612490590206003947,
+                    "id64": "612490590206003947",
+                    "is_terraformable": true,
+                    "name": "Drojeae HT-F d12-30 ABC 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 39850,
+                    "estimated_mapping_value": 839363,
+                    "estimated_scan_value": 251809,
+                    "id": 1044836154433571563,
+                    "id64": "1044836154433571563",
+                    "is_terraformable": true,
+                    "name": "Drojeae HT-F d12-30 D 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Drojeae HT-F d12-30",
+            "x": -1876.9375,
+            "y": -114.5,
+            "z": 3847.78125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 908,
+                    "estimated_mapping_value": 955419,
+                    "estimated_scan_value": 286626,
+                    "id": 144115232527059691,
+                    "id64": "144115232527059691",
+                    "is_terraformable": true,
+                    "name": "Drojeae HT-F d12-1 A 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Drojeae HT-F d12-1",
+            "x": -1870.53125,
+            "y": -155.09375,
+            "z": 3858.65625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 518,
+                    "estimated_mapping_value": 630419,
+                    "estimated_scan_value": 189126,
+                    "id": 36031109212900083,
+                    "id64": "36031109212900083",
+                    "is_terraformable": true,
+                    "name": "Drojeae LZ-D d13-67 1",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Drojeae LZ-D d13-67",
+            "x": -1897.75,
+            "y": -129.875,
+            "z": 3973.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1662,
+                    "estimated_mapping_value": 923003,
+                    "estimated_scan_value": 276901,
+                    "id": 216175369152072459,
+                    "id64": "216175369152072459",
+                    "is_terraformable": true,
+                    "name": "Blae Drye JX-A d1-75 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 10,
+            "name": "Blae Drye JX-A d1-75",
+            "x": -2019.375,
+            "y": -160.1875,
+            "z": 4163.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 279,
+                    "estimated_mapping_value": 637979,
+                    "estimated_scan_value": 191394,
+                    "id": 576462482000746018,
+                    "id64": "576462482000746018",
+                    "is_terraformable": true,
+                    "name": "Blae Drye YL-Y c3-6 A 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Blae Drye YL-Y c3-6",
+            "x": -2027.8125,
+            "y": -134.40625,
+            "z": 4226.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1245,
+                    "estimated_mapping_value": 633993,
+                    "estimated_scan_value": 190198,
+                    "id": 144118359229696787,
+                    "id64": "144118359229696787",
+                    "is_terraformable": true,
+                    "name": "Blae Drye ND-Z d1-92 A 2",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1249,
+                    "estimated_mapping_value": 857986,
+                    "estimated_scan_value": 257396,
+                    "id": 180147156248660755,
+                    "id64": "180147156248660755",
+                    "is_terraformable": true,
+                    "name": "Blae Drye ND-Z d1-92 A 2 a",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 36102,
+                    "estimated_mapping_value": 868749,
+                    "estimated_scan_value": 260625,
+                    "id": 468377532400372499,
+                    "id64": "468377532400372499",
+                    "is_terraformable": true,
+                    "name": "Blae Drye ND-Z d1-92 B 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Blae Drye ND-Z d1-92",
+            "x": -2055.875,
+            "y": -129.9375,
+            "z": 4250.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1178,
+                    "estimated_mapping_value": 610106,
+                    "estimated_scan_value": 183032,
+                    "id": 180145094630804275,
+                    "id64": "180145094630804275",
+                    "is_terraformable": true,
+                    "name": "Blae Drye BC-S d5-32 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1394,
+                    "estimated_mapping_value": 604879,
+                    "estimated_scan_value": 181464,
+                    "id": 252202688668732211,
+                    "id64": "252202688668732211",
+                    "is_terraformable": true,
+                    "name": "Blae Drye BC-S d5-32 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 2136,
+                    "estimated_mapping_value": 971393,
+                    "estimated_scan_value": 291418,
+                    "id": 324260282706660147,
+                    "id64": "324260282706660147",
+                    "is_terraformable": true,
+                    "name": "Blae Drye BC-S d5-32 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 14,
+            "name": "Blae Drye BC-S d5-32",
+            "x": -2177.96875,
+            "y": -181.90625,
+            "z": 4556.3125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 609,
+                    "estimated_mapping_value": 991789,
+                    "estimated_scan_value": 297537,
+                    "id": 684547773210433138,
+                    "id64": "684547773210433138",
+                    "is_terraformable": false,
+                    "name": "Blae Drye JQ-G c13-2 A 8",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Blae Drye JQ-G c13-2",
+            "x": -2256.625,
+            "y": -176.1875,
+            "z": 4643.28125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1858,
+                    "estimated_mapping_value": 973686,
+                    "estimated_scan_value": 292106,
+                    "id": 216175094223833923,
+                    "id64": "216175094223833923",
+                    "is_terraformable": true,
+                    "name": "Blae Drye IO-O d7-67 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Blae Drye IO-O d7-67",
+            "x": -2282.34375,
+            "y": -178.5,
+            "z": 4707.8125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1248,
+                    "estimated_mapping_value": 600729,
+                    "estimated_scan_value": 180219,
+                    "id": 108088737509903171,
+                    "id64": "108088737509903171",
+                    "is_terraformable": true,
+                    "name": "Blae Drye HO-O d7-68 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 2160,
+                    "estimated_mapping_value": 962466,
+                    "estimated_scan_value": 288740,
+                    "id": 252203925585759043,
+                    "id64": "252203925585759043",
+                    "is_terraformable": true,
+                    "name": "Blae Drye HO-O d7-68 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Blae Drye HO-O d7-68",
+            "x": -2314.59375,
+            "y": -162.96875,
+            "z": 4754.15625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 289,
+                    "estimated_mapping_value": 866759,
+                    "estimated_scan_value": 260028,
+                    "id": 396317671802410650,
+                    "id64": "396317671802410650",
+                    "is_terraformable": true,
+                    "name": "Blae Drye BV-X c17-3 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Blae Drye BV-X c17-3",
+            "x": -2312.03125,
+            "y": -160.75,
+            "z": 4816.3125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1089,
+                    "estimated_mapping_value": 617846,
+                    "estimated_scan_value": 185354,
+                    "id": 216173719783951211,
+                    "id64": "216173719783951211",
+                    "is_terraformable": true,
+                    "name": "Blae Drye BO-F d12-27 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 16,
+            "name": "Blae Drye BO-F d12-27",
+            "x": -2479.375,
+            "y": -207.90625,
+            "z": 5155.65625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 7239,
+                    "estimated_mapping_value": 886943,
+                    "estimated_scan_value": 266083,
+                    "id": 540433134085052210,
+                    "id64": "540433134085052210",
+                    "is_terraformable": false,
+                    "name": "NGC 6705 Sector GX-J c9-4 B 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 21,
+            "name": "NGC 6705 Sector GX-J c9-4",
+            "x": -2708.53125,
+            "y": -212.09375,
+            "z": 5587.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 8297,
+                    "estimated_mapping_value": 1007979,
+                    "estimated_scan_value": 302394,
+                    "id": 360289698611828570,
+                    "id64": "360289698611828570",
+                    "is_terraformable": true,
+                    "name": "Pyraleau RT-L c10-6 B 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 10,
+            "name": "Pyraleau RT-L c10-6",
+            "x": -2794.125,
+            "y": -204.75,
+            "z": 5806.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2069,
+                    "estimated_mapping_value": 615923,
+                    "estimated_scan_value": 184777,
+                    "id": 1297037424127331259,
+                    "id64": "1297037424127331259",
+                    "is_terraformable": false,
+                    "name": "Pyraleau PD-Q d6-21 8",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Pyraleau PD-Q d6-21",
+            "x": -2834.21875,
+            "y": -248.5,
+            "z": 5926.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 6494,
+                    "estimated_mapping_value": 864509,
+                    "estimated_scan_value": 259353,
+                    "id": 576463888912960443,
+                    "id64": "576463888912960443",
+                    "is_terraformable": false,
+                    "name": "Pyraleau OD-Q d6-91 B 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Pyraleau OD-Q d6-91",
+            "x": -2881.25,
+            "y": -234.1875,
+            "z": 5964.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 912,
+                    "estimated_mapping_value": 974206,
+                    "estimated_scan_value": 292262,
+                    "id": 324260935390677955,
+                    "id64": "324260935390677955",
+                    "is_terraformable": true,
+                    "name": "Pyraleau SJ-O d7-51 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Pyraleau SJ-O d7-51",
+            "x": -2888.3125,
+            "y": -248.125,
+            "z": 5983.78125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 465,
+                    "estimated_mapping_value": 860766,
+                    "estimated_scan_value": 258230,
+                    "id": 72060146959587202,
+                    "id64": "72060146959587202",
+                    "is_terraformable": true,
+                    "name": "Pyraleau LT-C c15-9 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 466,
+                    "estimated_mapping_value": 850776,
+                    "estimated_scan_value": 255233,
+                    "id": 108088943978551170,
+                    "id64": "108088943978551170",
+                    "is_terraformable": true,
+                    "name": "Pyraleau LT-C c15-9 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Pyraleau LT-C c15-9",
+            "x": -2872.59375,
+            "y": -235.125,
+            "z": 6004.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 256,
+                    "estimated_mapping_value": 924616,
+                    "estimated_scan_value": 277385,
+                    "id": 180146262937245610,
+                    "id64": "180146262937245610",
+                    "is_terraformable": false,
+                    "name": "Pyraleau CY-T c19-8 A 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 11,
+            "name": "Pyraleau CY-T c19-8",
+            "x": -3000.0625,
+            "y": -241.75,
+            "z": 6211.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 9205,
+                    "estimated_mapping_value": 829093,
+                    "estimated_scan_value": 248728,
+                    "id": 648520108544576475,
+                    "id64": "648520108544576475",
+                    "is_terraformable": true,
+                    "name": "Pyraleau DC-J d10-51 B 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Pyraleau DC-J d10-51",
+            "x": -3004.71875,
+            "y": -247.71875,
+            "z": 6281.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 17459,
+                    "estimated_mapping_value": 847436,
+                    "estimated_scan_value": 254231,
+                    "id": 720576637363489811,
+                    "id64": "720576637363489811",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae RT-Y d1-20 B 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 25,
+            "name": "Nyeajaae RT-Y d1-20",
+            "x": -3283.5,
+            "y": -290.875,
+            "z": 6818.71875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1216,
+                    "estimated_mapping_value": 966116,
+                    "estimated_scan_value": 289835,
+                    "id": 360289320008879131,
+                    "id64": "360289320008879131",
+                    "is_terraformable": false,
+                    "name": "Nyeajaae VZ-W d2-39 9",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Nyeajaae VZ-W d2-39",
+            "x": -3289.9375,
+            "y": -281.3125,
+            "z": 6870.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 545,
+                    "estimated_mapping_value": 901459,
+                    "estimated_scan_value": 270438,
+                    "id": 432346742021494834,
+                    "id64": "432346742021494834",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae MJ-U c5-4 A 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Nyeajaae MJ-U c5-4",
+            "x": -3315.28125,
+            "y": -264.03125,
+            "z": 6887.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1241,
+                    "estimated_mapping_value": 941213,
+                    "estimated_scan_value": 282364,
+                    "id": 216173788335639579,
+                    "id64": "216173788335639579",
+                    "is_terraformable": false,
+                    "name": "Nyeajaae VZ-W d2-29 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Nyeajaae VZ-W d2-29",
+            "x": -3342.28125,
+            "y": -289.03125,
+            "z": 6904.15625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1493,
+                    "estimated_mapping_value": 1002893,
+                    "estimated_scan_value": 300868,
+                    "id": 288231863393127467,
+                    "id64": "288231863393127467",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae CM-T d4-43 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Nyeajaae CM-T d4-43",
+            "x": -3358.875,
+            "y": -274.84375,
+            "z": 7022.4375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 961,
+                    "estimated_mapping_value": 962416,
+                    "estimated_scan_value": 288725,
+                    "id": 180144716421991467,
+                    "id64": "180144716421991467",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae CM-T d4-21 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Nyeajaae CM-T d4-21",
+            "x": -3405.8125,
+            "y": -282.59375,
+            "z": 7069.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 207,
+                    "estimated_mapping_value": 871573,
+                    "estimated_scan_value": 261472,
+                    "id": 792635536710604898,
+                    "id64": "792635536710604898",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae KP-J c11-7 A 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Nyeajaae KP-J c11-7",
+            "x": -3418.1875,
+            "y": -276.25,
+            "z": 7100.25
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 928,
+                    "estimated_mapping_value": 626776,
+                    "estimated_scan_value": 188033,
+                    "id": 288232791089286203,
+                    "id64": "288232791089286203",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae JY-P d6-70 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Nyeajaae JY-P d6-70",
+            "x": -3489.6875,
+            "y": -305.28125,
+            "z": 7243.34375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 192,
+                    "estimated_mapping_value": 876843,
+                    "estimated_scan_value": 263053,
+                    "id": 252204680602196154,
+                    "id64": "252204680602196154",
+                    "is_terraformable": false,
+                    "name": "Nyeajaae ZZ-P c21-11 A 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 14,
+            "name": "Nyeajaae ZZ-P c21-11",
+            "x": -3618,
+            "y": -314.9375,
+            "z": 7540.53125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 333,
+                    "estimated_mapping_value": 894566,
+                    "estimated_scan_value": 268370,
+                    "id": 720577667392116922,
+                    "id64": "720577667392116922",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae WE-Q c21-6 A 8",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Nyeajaae WE-Q c21-6",
+            "x": -3652.375,
+            "y": -292.90625,
+            "z": 7550.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 192,
+                    "estimated_mapping_value": 611883,
+                    "estimated_scan_value": 183565,
+                    "id": 360289697135335618,
+                    "id64": "360289697135335618",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae BG-O c22-6 AB 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Nyeajaae BG-O c22-6",
+            "x": -3677.3125,
+            "y": -325.09375,
+            "z": 7592.71875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 4228,
+                    "estimated_mapping_value": 609999,
+                    "estimated_scan_value": 183000,
+                    "id": 432348666309577835,
+                    "id64": "432348666309577835",
+                    "is_terraformable": false,
+                    "name": "Nyeajaae EJ-F d12-90 9",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Nyeajaae EJ-F d12-90",
+            "x": -3703.15625,
+            "y": -293.21875,
+            "z": 7678.90625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 544,
+                    "estimated_mapping_value": 861163,
+                    "estimated_scan_value": 258349,
+                    "id": 180146536540018922,
+                    "id64": "180146536540018922",
+                    "is_terraformable": true,
+                    "name": "Nyeajaae TK-F c27-9 A 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Nyeajaae TK-F c27-9",
+            "x": -3765.125,
+            "y": -316,
+            "z": 7782.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1731,
+                    "estimated_mapping_value": 1002619,
+                    "estimated_scan_value": 300786,
+                    "id": 684548561798368387,
+                    "id64": "684548561798368387",
+                    "is_terraformable": true,
+                    "name": "Flyiedgiae DH-C d41 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Flyiedgiae DH-C d41",
+            "x": -3805.34375,
+            "y": -333.71875,
+            "z": 7955.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1375,
+                    "estimated_mapping_value": 886356,
+                    "estimated_scan_value": 265907,
+                    "id": 108088049996336275,
+                    "id64": "108088049996336275",
+                    "is_terraformable": false,
+                    "name": "Flyiedgiae KT-Y d1-48 A 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Flyiedgiae KT-Y d1-48",
+            "x": -3881.03125,
+            "y": -326.125,
+            "z": 8077.15625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 92,
+                    "estimated_mapping_value": 836596,
+                    "estimated_scan_value": 250979,
+                    "id": 288230994223313529,
+                    "id64": "288230994223313529",
+                    "is_terraformable": true,
+                    "name": "Flyiedge AT-I b14-0 A 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Flyiedge AT-I b14-0",
+            "x": -3941.875,
+            "y": -343.9375,
+            "z": 8196.5625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 752,
+                    "estimated_mapping_value": 636036,
+                    "estimated_scan_value": 190811,
+                    "id": 396318254332578979,
+                    "id64": "396318254332578979",
+                    "is_terraformable": true,
+                    "name": "Flyiedge HG-V d3-43 A 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Flyiedge HG-V d3-43",
+            "x": -3944.09375,
+            "y": -338.375,
+            "z": 8218.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 942,
+                    "estimated_mapping_value": 608999,
+                    "estimated_scan_value": 182700,
+                    "id": 396319319467691171,
+                    "id64": "396319319467691171",
+                    "is_terraformable": true,
+                    "name": "Flyiedge GG-V d3-74 A 8",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Flyiedge GG-V d3-74",
+            "x": -3996.15625,
+            "y": -341.15625,
+            "z": 8272.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1090,
+                    "estimated_mapping_value": 934686,
+                    "estimated_scan_value": 280406,
+                    "id": 216172826111970483,
+                    "id64": "216172826111970483",
+                    "is_terraformable": true,
+                    "name": "Flyiedge OS-R d5-1 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Flyiedge OS-R d5-1",
+            "x": -4045.5625,
+            "y": -339.34375,
+            "z": 8395.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1050,
+                    "estimated_mapping_value": 976903,
+                    "estimated_scan_value": 293071,
+                    "id": 72059356006239411,
+                    "id64": "72059356006239411",
+                    "is_terraformable": true,
+                    "name": "Flyiedge PN-R d5-51 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Flyiedge PN-R d5-51",
+            "x": -4083.6875,
+            "y": -368.9375,
+            "z": 8424.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 4796,
+                    "estimated_mapping_value": 881619,
+                    "estimated_scan_value": 264486,
+                    "id": 576463303211719026,
+                    "id64": "576463303211719026",
+                    "is_terraformable": true,
+                    "name": "Flyiedge LS-F c13-9 B 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Flyiedge LS-F c13-9",
+            "x": -4084.40625,
+            "y": -367.59375,
+            "z": 8458.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 811,
+                    "estimated_mapping_value": 958579,
+                    "estimated_scan_value": 287574,
+                    "id": 1477181958709497027,
+                    "id64": "1477181958709497027",
+                    "is_terraformable": true,
+                    "name": "Flyiedge XZ-N d7-37 A 9",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Flyiedge XZ-N d7-37",
+            "x": -4090.78125,
+            "y": -376.875,
+            "z": 8541.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2292,
+                    "estimated_mapping_value": 606539,
+                    "estimated_scan_value": 181962,
+                    "id": 612490452297239747,
+                    "id64": "612490452297239747",
+                    "is_terraformable": true,
+                    "name": "Flyiedge XZ-N d7-26 A 8",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 33933,
+                    "estimated_mapping_value": 872426,
+                    "estimated_scan_value": 261728,
+                    "id": 1909527144979942595,
+                    "id64": "1909527144979942595",
+                    "is_terraformable": true,
+                    "name": "Flyiedge XZ-N d7-26 B 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Flyiedge XZ-N d7-26",
+            "x": -4123.625,
+            "y": -356.78125,
+            "z": 8591.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 5627,
+                    "estimated_mapping_value": 865576,
+                    "estimated_scan_value": 259673,
+                    "id": 900720519194545355,
+                    "id64": "900720519194545355",
+                    "is_terraformable": false,
+                    "name": "Flyiedge YK-M d8-17 B 2",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Flyiedge YK-M d8-17",
+            "x": -4154.84375,
+            "y": -340.15625,
+            "z": 8631.90625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1263,
+                    "estimated_mapping_value": 601296,
+                    "estimated_scan_value": 180389,
+                    "id": 468375951399374027,
+                    "id64": "468375951399374027",
+                    "is_terraformable": true,
+                    "name": "Flyiedge AG-M d8-46 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1743,
+                    "estimated_mapping_value": 628289,
+                    "estimated_scan_value": 188487,
+                    "id": 900721515626941643,
+                    "id64": "900721515626941643",
+                    "is_terraformable": true,
+                    "name": "Flyiedge AG-M d8-46 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Flyiedge AG-M d8-46",
+            "x": -4157.3125,
+            "y": -363.5,
+            "z": 8674.375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 424,
+                    "estimated_mapping_value": 856289,
+                    "estimated_scan_value": 256887,
+                    "id": 108088941763860898,
+                    "id64": "108088941763860898",
+                    "is_terraformable": true,
+                    "name": "Flyiedge GD-V c18-9 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Flyiedge GD-V c18-9",
+            "x": -4193.25,
+            "y": -368.21875,
+            "z": 8719.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 423,
+                    "estimated_mapping_value": 842836,
+                    "estimated_scan_value": 252851,
+                    "id": 396318768092649906,
+                    "id64": "396318768092649906",
+                    "is_terraformable": true,
+                    "name": "Flyiedge NP-R c20-7 A 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Flyiedge NP-R c20-7",
+            "x": -4246.5625,
+            "y": -376.21875,
+            "z": 8806
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1286,
+                    "estimated_mapping_value": 629653,
+                    "estimated_scan_value": 188896,
+                    "id": 396316914235657443,
+                    "id64": "396316914235657443",
+                    "is_terraformable": true,
+                    "name": "Flyiedge LY-G d11-4 A 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Flyiedge LY-G d11-4",
+            "x": -4268.90625,
+            "y": -363.15625,
+            "z": 8886.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 974,
+                    "estimated_mapping_value": 605036,
+                    "estimated_scan_value": 181511,
+                    "id": 504404576602868971,
+                    "id64": "504404576602868971",
+                    "is_terraformable": true,
+                    "name": "Flyiedge PE-F d12-41 A 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Flyiedge PE-F d12-41",
+            "x": -4292.375,
+            "y": -398.96875,
+            "z": 8939.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 383,
+                    "estimated_mapping_value": 874243,
+                    "estimated_scan_value": 262273,
+                    "id": 36030522689526274,
+                    "id64": "36030522689526274",
+                    "is_terraformable": false,
+                    "name": "Skaude AF-E c6 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Skaude AF-E c6",
+            "x": -4439.5625,
+            "y": -395.21875,
+            "z": 9177.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 11208,
+                    "estimated_mapping_value": 845839,
+                    "estimated_scan_value": 253752,
+                    "id": 432347016874347795,
+                    "id64": "432347016874347795",
+                    "is_terraformable": true,
+                    "name": "Skaude UO-Y d1-42 B 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 11209,
+                    "estimated_mapping_value": 863966,
+                    "estimated_scan_value": 259190,
+                    "id": 396318219855383827,
+                    "id64": "396318219855383827",
+                    "is_terraformable": true,
+                    "name": "Skaude UO-Y d1-42 B 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Skaude UO-Y d1-42",
+            "x": -4478.46875,
+            "y": -410.4375,
+            "z": 9352.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2204,
+                    "estimated_mapping_value": 1030619,
+                    "estimated_scan_value": 309186,
+                    "id": 252202997419789587,
+                    "id64": "252202997419789587",
+                    "is_terraformable": true,
+                    "name": "Skaude UO-Y d1-41 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Skaude UO-Y d1-41",
+            "x": -4486.625,
+            "y": -408.21875,
+            "z": 9359.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 131,
+                    "estimated_mapping_value": 851446,
+                    "estimated_scan_value": 255434,
+                    "id": 360288580744787025,
+                    "id64": "360288580744787025",
+                    "is_terraformable": true,
+                    "name": "Skaude MT-Q b9-0 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Skaude MT-Q b9-0",
+            "x": -4499.15625,
+            "y": -420.5625,
+            "z": 9375.90625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 77,
+                    "estimated_mapping_value": 1011683,
+                    "estimated_scan_value": 303505,
+                    "id": 432346174245975153,
+                    "id64": "432346174245975153",
+                    "is_terraformable": false,
+                    "name": "Skaude WB-K b13-0 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Skaude WB-K b13-0",
+            "x": -4539.375,
+            "y": -384.40625,
+            "z": 9455.53125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 557,
+                    "estimated_mapping_value": 882269,
+                    "estimated_scan_value": 264681,
+                    "id": 432348150712159539,
+                    "id64": "432348150712159539",
+                    "is_terraformable": false,
+                    "name": "Skaude IN-R d5-75 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 13,
+            "name": "Skaude IN-R d5-75",
+            "x": -4700.15625,
+            "y": -413.9375,
+            "z": 9719.21875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2019,
+                    "estimated_mapping_value": 618619,
+                    "estimated_scan_value": 185586,
+                    "id": 288231107160083819,
+                    "id64": "288231107160083819",
+                    "is_terraformable": true,
+                    "name": "Skaude JZ-E d12-21 7",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 23,
+            "name": "Skaude JZ-E d12-21",
+            "x": -4914.28125,
+            "y": -463.0625,
+            "z": 10220.4375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 540,
+                    "estimated_mapping_value": 836573,
+                    "estimated_scan_value": 250972,
+                    "id": 108087566032083706,
+                    "id64": "108087566032083706",
+                    "is_terraformable": true,
+                    "name": "Skaude II-B c29-4 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 10,
+            "name": "Skaude II-B c29-4",
+            "x": -4999.8125,
+            "y": -454.375,
+            "z": 10427.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 4777,
+                    "estimated_mapping_value": 610763,
+                    "estimated_scan_value": 183229,
+                    "id": 864694230268677499,
+                    "id64": "864694230268677499",
+                    "is_terraformable": false,
+                    "name": "Skaude QL-B d14-90 A 12",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Skaude QL-B d14-90",
+            "x": -5023.125,
+            "y": -456,
+            "z": 10434.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 735,
+                    "estimated_mapping_value": 1038833,
+                    "estimated_scan_value": 311650,
+                    "id": 360291209442135419,
+                    "id64": "360291209442135419",
+                    "is_terraformable": true,
+                    "name": "Skaude QL-B d14-94 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Skaude QL-B d14-94",
+            "x": -5021.84375,
+            "y": -458.84375,
+            "z": 10440.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1220,
+                    "estimated_mapping_value": 964826,
+                    "estimated_scan_value": 289448,
+                    "id": 180144303752777091,
+                    "id64": "180144303752777091",
+                    "is_terraformable": true,
+                    "name": "Preia Phoe HX-B d9 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Preia Phoe HX-B d9",
+            "x": -5066.9375,
+            "y": -476.84375,
+            "z": 10485.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1776,
+                    "estimated_mapping_value": 923889,
+                    "estimated_scan_value": 277167,
+                    "id": 36030696208108947,
+                    "id64": "36030696208108947",
+                    "is_terraformable": true,
+                    "name": "Preia Phoe OJ-Y d1-55 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 9,
+            "name": "Preia Phoe OJ-Y d1-55",
+            "x": -5124.5625,
+            "y": -479.5625,
+            "z": 10679.03125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 6216,
+                    "estimated_mapping_value": 689106,
+                    "estimated_scan_value": 206732,
+                    "id": 2485988790418443675,
+                    "id64": "2485988790418443675",
+                    "is_terraformable": false,
+                    "name": "Preia Phoe SP-W d2-52 7",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Preia Phoe SP-W d2-52",
+            "x": -5183.75,
+            "y": -465.8125,
+            "z": 10723.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 17638,
+                    "estimated_mapping_value": 945833,
+                    "estimated_scan_value": 283750,
+                    "id": 1729382472438681011,
+                    "id64": "1729382472438681011",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe SI-R d5-6 B 10",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Prua Phoe SI-R d5-6",
+            "x": -5277.625,
+            "y": -484.84375,
+            "z": 10976.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 20675,
+                    "estimated_mapping_value": 954309,
+                    "estimated_scan_value": 286293,
+                    "id": 756607942223891891,
+                    "id64": "756607942223891891",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe SI-R d5-93 B 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Prua Phoe SI-R d5-93",
+            "x": -5294.625,
+            "y": -494.75,
+            "z": 10978.71875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 203,
+                    "estimated_mapping_value": 610529,
+                    "estimated_scan_value": 183159,
+                    "id": 396318216457657242,
+                    "id64": "396318216457657242",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe ND-W c17-5 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 11,
+            "name": "Prua Phoe ND-W c17-5",
+            "x": -5384.71875,
+            "y": -505.6875,
+            "z": 11229.78125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 945,
+                    "estimated_mapping_value": 630529,
+                    "estimated_scan_value": 189159,
+                    "id": 324261450249833947,
+                    "id64": "324261450249833947",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe KN-I d10-66 AB 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1350,
+                    "estimated_mapping_value": 635239,
+                    "estimated_scan_value": 190572,
+                    "id": 360290247268797915,
+                    "id64": "360290247268797915",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe KN-I d10-66 AB 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Prua Phoe KN-I d10-66",
+            "x": -5470.65625,
+            "y": -480.21875,
+            "z": 11365.5
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 950,
+                    "estimated_mapping_value": 617376,
+                    "estimated_scan_value": 185213,
+                    "id": 72059905460047331,
+                    "id64": "72059905460047331",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe NT-G d11-67 2",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1165,
+                    "estimated_mapping_value": 613306,
+                    "estimated_scan_value": 183992,
+                    "id": 252203890554867171,
+                    "id64": "252203890554867171",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe NT-G d11-67 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1571,
+                    "estimated_mapping_value": 962909,
+                    "estimated_scan_value": 288873,
+                    "id": 288232687573831139,
+                    "id64": "288232687573831139",
+                    "is_terraformable": true,
+                    "name": "Prua Phoe NT-G d11-67 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Prua Phoe NT-G d11-67",
+            "x": -5511.34375,
+            "y": -495.125,
+            "z": 11431.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1015,
+                    "estimated_mapping_value": 601583,
+                    "estimated_scan_value": 180475,
+                    "id": 180145574928862739,
+                    "id64": "180145574928862739",
+                    "is_terraformable": true,
+                    "name": "Clooku ZE-Y d1-46 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 23,
+            "name": "Clooku ZE-Y d1-46",
+            "x": -5735.53125,
+            "y": -525.1875,
+            "z": 11919.71875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 557,
+                    "estimated_mapping_value": 876646,
+                    "estimated_scan_value": 262994,
+                    "id": 252203924864257563,
+                    "id64": "252203924864257563",
+                    "is_terraformable": true,
+                    "name": "Clooku CL-W d2-68 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 734,
+                    "estimated_mapping_value": 907939,
+                    "estimated_scan_value": 272382,
+                    "id": 288232721883221531,
+                    "id64": "288232721883221531",
+                    "is_terraformable": true,
+                    "name": "Clooku CL-W d2-68 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 6,
+            "name": "Clooku CL-W d2-68",
+            "x": -5804.75,
+            "y": -537.0625,
+            "z": 12029.71875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 802,
+                    "estimated_mapping_value": 902643,
+                    "estimated_scan_value": 270793,
+                    "id": 576461345637944915,
+                    "id64": "576461345637944915",
+                    "is_terraformable": false,
+                    "name": "Clooku BC-K d9-17 A 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 24,
+            "name": "Clooku BC-K d9-17",
+            "x": -6051.25,
+            "y": -549.03125,
+            "z": 12536.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 241,
+                    "estimated_mapping_value": 931509,
+                    "estimated_scan_value": 279453,
+                    "id": 432346736853818674,
+                    "id64": "432346736853818674",
+                    "is_terraformable": true,
+                    "name": "Nuekuae RQ-S c5-4 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 33,
+            "name": "Nuekuae RQ-S c5-4",
+            "x": -6386.15625,
+            "y": -605.375,
+            "z": 13260.625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1523,
+                    "estimated_mapping_value": 977176,
+                    "estimated_scan_value": 293153,
+                    "id": 972778421983514291,
+                    "id64": "972778421983514291",
+                    "is_terraformable": true,
+                    "name": "Stuelou XY-Q d5-26 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 13,
+            "name": "Stuelou XY-Q d5-26",
+            "x": -6504.3125,
+            "y": -616.46875,
+            "z": 13533.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 638,
+                    "estimated_mapping_value": 846646,
+                    "estimated_scan_value": 253994,
+                    "id": 180145157385526666,
+                    "id64": "180145157385526666",
+                    "is_terraformable": true,
+                    "name": "Stuelou KH-Z c15-4 A 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 638,
+                    "estimated_mapping_value": 839566,
+                    "estimated_scan_value": 251870,
+                    "id": 216173954404490634,
+                    "id64": "216173954404490634",
+                    "is_terraformable": true,
+                    "name": "Stuelou KH-Z c15-4 A 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 9,
+            "name": "Stuelou KH-Z c15-4",
+            "x": -6601.65625,
+            "y": -589.09375,
+            "z": 13705.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 533,
+                    "estimated_mapping_value": 917503,
+                    "estimated_scan_value": 275251,
+                    "id": 72059865773153690,
+                    "id64": "72059865773153690",
+                    "is_terraformable": true,
+                    "name": "Stuelou RT-V c17-8 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Stuelou RT-V c17-8",
+            "x": -6657.875,
+            "y": -622.15625,
+            "z": 13800.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 715,
+                    "estimated_mapping_value": 996626,
+                    "estimated_scan_value": 298988,
+                    "id": 216173959396069107,
+                    "id64": "216173959396069107",
+                    "is_terraformable": true,
+                    "name": "Stuelou ZV-C d13-34 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 19,
+            "name": "Stuelou ZV-C d13-34",
+            "x": -6834.28125,
+            "y": -632.71875,
+            "z": 14201.5
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 579,
+                    "estimated_mapping_value": 865543,
+                    "estimated_scan_value": 259663,
+                    "id": 324259903776362235,
+                    "id64": "324259903776362235",
+                    "is_terraformable": false,
+                    "name": "Stuelou DC-B d14-21 2",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Stuelou DC-B d14-21",
+            "x": -6855.75,
+            "y": -621.875,
+            "z": 14260.65625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 623,
+                    "estimated_mapping_value": 894153,
+                    "estimated_scan_value": 268246,
+                    "id": 72059590492560898,
+                    "id64": "72059590492560898",
+                    "is_terraformable": true,
+                    "name": "Blua Eaec PB-D c7 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Blua Eaec PB-D c7",
+            "x": -6884.59375,
+            "y": -660.03125,
+            "z": 14333.21875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 845,
+                    "estimated_mapping_value": 609283,
+                    "estimated_scan_value": 182785,
+                    "id": 360290350045990659,
+                    "id64": "360290350045990659",
+                    "is_terraformable": true,
+                    "name": "Blua Eaec UN-B d69 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Blua Eaec UN-B d69",
+            "x": -6929.59375,
+            "y": -653.1875,
+            "z": 14367.34375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1210,
+                    "estimated_mapping_value": 623136,
+                    "estimated_scan_value": 186941,
+                    "id": 936750277698899739,
+                    "id64": "936750277698899739",
+                    "is_terraformable": true,
+                    "name": "Blua Eaec HB-W d2-45 9",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1594,
+                    "estimated_mapping_value": 986929,
+                    "estimated_scan_value": 296079,
+                    "id": 1297038247888539419,
+                    "id64": "1297038247888539419",
+                    "is_terraformable": true,
+                    "name": "Blua Eaec HB-W d2-45 11",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Blua Eaec HB-W d2-45",
+            "x": -7013.0625,
+            "y": -671,
+            "z": 14538.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 313,
+                    "estimated_mapping_value": 844789,
+                    "estimated_scan_value": 253437,
+                    "id": 576461374100086354,
+                    "id64": "576461374100086354",
+                    "is_terraformable": true,
+                    "name": "Blua Eaec ZK-L c9-2 8",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Blua Eaec ZK-L c9-2",
+            "x": -7064.96875,
+            "y": -657.9375,
+            "z": 14696.8125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1918,
+                    "estimated_mapping_value": 990653,
+                    "estimated_scan_value": 297196,
+                    "id": 1693354705809166139,
+                    "id64": "1693354705809166139",
+                    "is_terraformable": false,
+                    "name": "Blua Eaec UZ-O d6-36 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 11,
+            "name": "Blua Eaec UZ-O d6-36",
+            "x": -7197.3125,
+            "y": -691.375,
+            "z": 14919.5625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 223,
+                    "estimated_mapping_value": 860399,
+                    "estimated_scan_value": 258120,
+                    "id": 36029968303005322,
+                    "id64": "36029968303005322",
+                    "is_terraformable": true,
+                    "name": "Blua Eaec XB-Z c15-4 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Blua Eaec XB-Z c15-4",
+            "x": -7215.375,
+            "y": -660.5,
+            "z": 14984.4375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 4578,
+                    "estimated_mapping_value": 675926,
+                    "estimated_scan_value": 202778,
+                    "id": 648518561467060043,
+                    "id64": "648518561467060043",
+                    "is_terraformable": false,
+                    "name": "Blua Eaec CM-L d8-6 AB 2",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Blua Eaec CM-L d8-6",
+            "x": -7229.875,
+            "y": -670.09375,
+            "z": 15049.53125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 958,
+                    "estimated_mapping_value": 982816,
+                    "estimated_scan_value": 294845,
+                    "id": 504403991849717595,
+                    "id64": "504403991849717595",
+                    "is_terraformable": false,
+                    "name": "Blua Eaec JY-H d10-24 A 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Blua Eaec JY-H d10-24",
+            "x": -7328.6875,
+            "y": -697.15625,
+            "z": 15176.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 866,
+                    "estimated_mapping_value": 872943,
+                    "estimated_scan_value": 261883,
+                    "id": 72059389678047083,
+                    "id64": "72059389678047083",
+                    "is_terraformable": false,
+                    "name": "Blua Eaec QK-E d12-52 2",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Blua Eaec QK-E d12-52",
+            "x": -7381.8125,
+            "y": -714.28125,
+            "z": 15338.15625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 382,
+                    "estimated_mapping_value": 889396,
+                    "estimated_scan_value": 266819,
+                    "id": 288230447320112914,
+                    "id64": "288230447320112914",
+                    "is_terraformable": false,
+                    "name": "Boelts II-Z c1-0 A 2",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 16,
+            "name": "Boelts II-Z c1-0",
+            "x": -7560.96875,
+            "y": -701.5625,
+            "z": 15661.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2781,
+                    "estimated_mapping_value": 914603,
+                    "estimated_scan_value": 274381,
+                    "id": 756605633200332570,
+                    "id64": "756605633200332570",
+                    "is_terraformable": true,
+                    "name": "Boelts OJ-X c2-3 B 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Boelts OJ-X c2-3",
+            "x": -7561.75,
+            "y": -732.09375,
+            "z": 15712
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 355,
+                    "estimated_mapping_value": 1048026,
+                    "estimated_scan_value": 314408,
+                    "id": 180147079785946954,
+                    "id64": "180147079785946954",
+                    "is_terraformable": true,
+                    "name": "Boelts KU-M c8-11 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 11,
+            "name": "Boelts KU-M c8-11",
+            "x": -7660.3125,
+            "y": -714.46875,
+            "z": 15940.4375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1946,
+                    "estimated_mapping_value": 624926,
+                    "estimated_scan_value": 187478,
+                    "id": 1657324671738957731,
+                    "id64": "1657324671738957731",
+                    "is_terraformable": false,
+                    "name": "Boelts CH-U d3-0 5",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Boelts CH-U d3-0",
+            "x": -7691.4375,
+            "y": -731.5625,
+            "z": 15954.3125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 181,
+                    "estimated_mapping_value": 886926,
+                    "estimated_scan_value": 266078,
+                    "id": 36029967430524762,
+                    "id64": "36029967430524762",
+                    "is_terraformable": true,
+                    "name": "Boelts QG-J c10-4 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Boelts QG-J c10-4",
+            "x": -7706.90625,
+            "y": -740.65625,
+            "z": 16039.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 336,
+                    "estimated_mapping_value": 856743,
+                    "estimated_scan_value": 257023,
+                    "id": 36031341820059490,
+                    "id64": "36031341820059490",
+                    "is_terraformable": true,
+                    "name": "Boelts UM-H c11-9 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Boelts UM-H c11-9",
+            "x": -7740.09375,
+            "y": -735.5625,
+            "z": 16091
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1195,
+                    "estimated_mapping_value": 970296,
+                    "estimated_scan_value": 291089,
+                    "id": 252203409048719299,
+                    "id64": "252203409048719299",
+                    "is_terraformable": true,
+                    "name": "Boeph HG-N d7-53 A 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1572,
+                    "estimated_mapping_value": 937953,
+                    "estimated_scan_value": 281386,
+                    "id": 324261003086647235,
+                    "id64": "324261003086647235",
+                    "is_terraformable": true,
+                    "name": "Boeph HG-N d7-53 A 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Boeph HG-N d7-53",
+            "x": -7820.0625,
+            "y": -740.46875,
+            "z": 16252.875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2629,
+                    "estimated_mapping_value": 653106,
+                    "estimated_scan_value": 195932,
+                    "id": 1297037938466328523,
+                    "id64": "1297037938466328523",
+                    "is_terraformable": false,
+                    "name": "Boeph MH-L d8-36 3",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Boeph MH-L d8-36",
+            "x": -7866.40625,
+            "y": -752.6875,
+            "z": 16321.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 637,
+                    "estimated_mapping_value": 621056,
+                    "estimated_scan_value": 186317,
+                    "id": 432347497205977043,
+                    "id64": "432347497205977043",
+                    "is_terraformable": true,
+                    "name": "Boeph OS-J d9-56 A 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Boeph OS-J d9-56",
+            "x": -7863.1875,
+            "y": -733.21875,
+            "z": 16375.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 397,
+                    "estimated_mapping_value": 882776,
+                    "estimated_scan_value": 264833,
+                    "id": 144116907706359778,
+                    "id64": "144116907706359778",
+                    "is_terraformable": true,
+                    "name": "Boeph EI-F c26-6 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 17,
+            "name": "Boeph EI-F c26-6",
+            "x": -8048.625,
+            "y": -742.1875,
+            "z": 16732.78125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 810,
+                    "estimated_mapping_value": 628356,
+                    "estimated_scan_value": 188507,
+                    "id": 144118048700076043,
+                    "id64": "144118048700076043",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae CK-Z d83 A 2",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1537,
+                    "estimated_mapping_value": 1014926,
+                    "estimated_scan_value": 304478,
+                    "id": 216175642738003979,
+                    "id64": "216175642738003979",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae CK-Z d83 A 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Eoch Flyuae CK-Z d83",
+            "x": -8169.96875,
+            "y": -769.1875,
+            "z": 16983.9375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 14994,
+                    "estimated_mapping_value": 905956,
+                    "estimated_scan_value": 271787,
+                    "id": 540432575134867482,
+                    "id64": "540432575134867482",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae GF-X c2-2 B 8",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Eoch Flyuae GF-X c2-2",
+            "x": -8198.15625,
+            "y": -784.96875,
+            "z": 17011.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 242,
+                    "estimated_mapping_value": 857453,
+                    "estimated_scan_value": 257236,
+                    "id": 612490993739407402,
+                    "id64": "612490993739407402",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae NR-T c4-5 A 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Eoch Flyuae NR-T c4-5",
+            "x": -8235,
+            "y": -761.5,
+            "z": 17063.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 240,
+                    "estimated_mapping_value": 843893,
+                    "estimated_scan_value": 253168,
+                    "id": 180145704255529050,
+                    "id64": "180145704255529050",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae JC-J c10-6 A 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Eoch Flyuae JC-J c10-6",
+            "x": -8320.15625,
+            "y": -783.15625,
+            "z": 17330.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 423,
+                    "estimated_mapping_value": 633746,
+                    "estimated_scan_value": 190124,
+                    "id": 36031065868345458,
+                    "id64": "36031065868345458",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae WP-D c13-8 1",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 5,
+            "name": "Eoch Flyuae WP-D c13-8",
+            "x": -8369.5,
+            "y": -802.40625,
+            "z": 17426.40625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 472,
+                    "estimated_mapping_value": 603663,
+                    "estimated_scan_value": 181099,
+                    "id": 288232919744782474,
+                    "id64": "288232919744782474",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae GI-Y c15-9 A 5",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Eoch Flyuae GI-Y c15-9",
+            "x": -8455.46875,
+            "y": -823.09375,
+            "z": 17546.15625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1974,
+                    "estimated_mapping_value": 981313,
+                    "estimated_scan_value": 294394,
+                    "id": 720576704992350291,
+                    "id64": "720576704992350291",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae IN-J d9-22 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Eoch Flyuae IN-J d9-22",
+            "x": -8508.1875,
+            "y": -807.875,
+            "z": 17686
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1260,
+                    "estimated_mapping_value": 631896,
+                    "estimated_scan_value": 189569,
+                    "id": 216173855947722851,
+                    "id64": "216173855947722851",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae PZ-F d11-31 A 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Eoch Flyuae PZ-F d11-31",
+            "x": -8572.125,
+            "y": -819.21875,
+            "z": 17844.6875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 793,
+                    "estimated_mapping_value": 934989,
+                    "estimated_scan_value": 280497,
+                    "id": 396318047200956515,
+                    "id64": "396318047200956515",
+                    "is_terraformable": false,
+                    "name": "Eoch Flyuae RU-F d11-37 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Eoch Flyuae RU-F d11-37",
+            "x": -8605.34375,
+            "y": -827.5625,
+            "z": 17872.65625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 407,
+                    "estimated_mapping_value": 841143,
+                    "estimated_scan_value": 252343,
+                    "id": 108087430514298995,
+                    "id64": "108087430514298995",
+                    "is_terraformable": true,
+                    "name": "Eoch Flyuae YG-C d13-30 2",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Eoch Flyuae YG-C d13-30",
+            "x": -8669.1875,
+            "y": -846.625,
+            "z": 18043.78125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 6638,
+                    "estimated_mapping_value": 960209,
+                    "estimated_scan_value": 288063,
+                    "id": 432348802691453059,
+                    "id64": "432348802691453059",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae TY-A d94 BCD 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 8,
+            "name": "Dryio Flyuae TY-A d94",
+            "x": -8733.125,
+            "y": -829.21875,
+            "z": 18203.1563
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2020,
+                    "estimated_mapping_value": 1010903,
+                    "estimated_scan_value": 303271,
+                    "id": 864692786371055747,
+                    "id64": "864692786371055747",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae TY-A d48 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Dryio Flyuae TY-A d48",
+            "x": -8779.15625,
+            "y": -839.4375,
+            "z": 18200.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1546,
+                    "estimated_mapping_value": 620439,
+                    "estimated_scan_value": 186132,
+                    "id": 144116433674915979,
+                    "id64": "144116433674915979",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae XE-Z d36 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 2051,
+                    "estimated_mapping_value": 600306,
+                    "estimated_scan_value": 180092,
+                    "id": 216174027712843915,
+                    "id64": "216174027712843915",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae XE-Z d36 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 2053,
+                    "estimated_mapping_value": 952493,
+                    "estimated_scan_value": 285748,
+                    "id": 252202824731807883,
+                    "id64": "252202824731807883",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae XE-Z d36 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Dryio Flyuae XE-Z d36",
+            "x": -8784.125,
+            "y": -832.0625,
+            "z": 18239.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1652,
+                    "estimated_mapping_value": 893343,
+                    "estimated_scan_value": 268003,
+                    "id": 180146879944544395,
+                    "id64": "180146879944544395",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae WE-Z d84 AB 3",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Dryio Flyuae WE-Z d84",
+            "x": -8806.65625,
+            "y": -828.09375,
+            "z": 18285.84375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 349,
+                    "estimated_mapping_value": 975196,
+                    "estimated_scan_value": 292559,
+                    "id": 36028865972642106,
+                    "id64": "36028865972642106",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae JT-P c6-0 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 7,
+            "name": "Dryio Flyuae JT-P c6-0",
+            "x": -8872.625,
+            "y": -843,
+            "z": 18422.96875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 171,
+                    "estimated_mapping_value": 919089,
+                    "estimated_scan_value": 275727,
+                    "id": 324261441147609410,
+                    "id64": "324261441147609410",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae NZ-N c7-8 A 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Dryio Flyuae NZ-N c7-8",
+            "x": -8898.5625,
+            "y": -862.78125,
+            "z": 18470.90625
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 375,
+                    "estimated_mapping_value": 868713,
+                    "estimated_scan_value": 260614,
+                    "id": 360290238099464514,
+                    "id64": "360290238099464514",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae MZ-N c7-8 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Dryio Flyuae MZ-N c7-8",
+            "x": -8905.96875,
+            "y": -851.4375,
+            "z": 18484.59375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 278,
+                    "estimated_mapping_value": 948323,
+                    "estimated_scan_value": 284497,
+                    "id": 468376904101372234,
+                    "id64": "468376904101372234",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae RF-M c8-9 A 1",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Dryio Flyuae RF-M c8-9",
+            "x": -8896.71875,
+            "y": -847.09375,
+            "z": 18505.46875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 4274,
+                    "estimated_mapping_value": 632629,
+                    "estimated_scan_value": 189789,
+                    "id": 216173099966353571,
+                    "id64": "216173099966353571",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae HX-T d3-9 A 2",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Dryio Flyuae HX-T d3-9",
+            "x": -8896.28125,
+            "y": -841.5625,
+            "z": 18506
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 2863,
+                    "estimated_mapping_value": 831416,
+                    "estimated_scan_value": 249425,
+                    "id": 360287972456693007,
+                    "id64": "360287972456693007",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae AA-A h270 A 2 f",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Dryio Flyuae AA-A h270",
+            "x": -8916.78125,
+            "y": -847.75,
+            "z": 18564.5
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 3556,
+                    "estimated_mapping_value": 645989,
+                    "estimated_scan_value": 193797,
+                    "id": 216173551988721748,
+                    "id64": "216173551988721748",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae EW-W e1-179 6",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 1,
+            "name": "Dryio Flyuae EW-W e1-179",
+            "x": -8924.21875,
+            "y": -853,
+            "z": 18562.25
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 6540,
+                    "estimated_mapping_value": 723943,
+                    "estimated_scan_value": 217183,
+                    "id": 900720896144920755,
+                    "id64": "900720896144920755",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae OJ-Q d5-28 AB 3",
+                    "subtype": "Ammonia world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Dryio Flyuae OJ-Q d5-28",
+            "x": -8946.03125,
+            "y": -854.4375,
+            "z": 18648.4375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 704,
+                    "estimated_mapping_value": 624609,
+                    "estimated_scan_value": 187383,
+                    "id": 108088804836724915,
+                    "id64": "108088804836724915",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae OJ-Q d5-70 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Dryio Flyuae OJ-Q d5-70",
+            "x": -8975.6875,
+            "y": -875.75,
+            "z": 18647.25
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 337,
+                    "estimated_mapping_value": 881079,
+                    "estimated_scan_value": 264324,
+                    "id": 468376079333433706,
+                    "id64": "468376079333433706",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae FE-F c12-6 A 4",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 462,
+                    "estimated_mapping_value": 898609,
+                    "estimated_scan_value": 269583,
+                    "id": 540433673371361642,
+                    "id64": "540433673371361642",
+                    "is_terraformable": false,
+                    "name": "Dryio Flyuae FE-F c12-6 A 5",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Dryio Flyuae FE-F c12-6",
+            "x": -8970,
+            "y": -849.84375,
+            "z": 18660.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 348,
+                    "estimated_mapping_value": 999969,
+                    "estimated_scan_value": 299991,
+                    "id": 504405426041069946,
+                    "id64": "504405426041069946",
+                    "is_terraformable": true,
+                    "name": "Dryio Flyuae OL-B c14-8 A 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 4,
+            "name": "Dryio Flyuae OL-B c14-8",
+            "x": -9007.875,
+            "y": -866.03125,
+            "z": 18747.71875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1207,
+                    "estimated_mapping_value": 608969,
+                    "estimated_scan_value": 182691,
+                    "id": 216175058421108963,
+                    "id64": "216175058421108963",
+                    "is_terraformable": true,
+                    "name": "Dryooe Flyou AV-F d11-66 4",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 2136,
+                    "estimated_mapping_value": 1002596,
+                    "estimated_scan_value": 300779,
+                    "id": 288232652459036899,
+                    "id64": "288232652459036899",
+                    "is_terraformable": false,
+                    "name": "Dryooe Flyou AV-F d11-66 6",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 17,
+            "name": "Dryooe Flyou AV-F d11-66",
+            "x": -9174.3125,
+            "y": -869.15625,
+            "z": 19104.28125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 722,
+                    "estimated_mapping_value": 630376,
+                    "estimated_scan_value": 189113,
+                    "id": 72058599001379067,
+                    "id64": "72058599001379067",
+                    "is_terraformable": true,
+                    "name": "Dryooe Flyou KN-A d14-29 2",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1190,
+                    "estimated_mapping_value": 967026,
+                    "estimated_scan_value": 290108,
+                    "id": 180144990058270971,
+                    "id64": "180144990058270971",
+                    "is_terraformable": true,
+                    "name": "Dryooe Flyou KN-A d14-29 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 12,
+            "name": "Dryooe Flyou KN-A d14-29",
+            "x": -9315,
+            "y": -902.46875,
+            "z": 19351.03125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 914,
+                    "estimated_mapping_value": 623296,
+                    "estimated_scan_value": 186989,
+                    "id": 36030764055089403,
+                    "id64": "36030764055089403",
+                    "is_terraformable": true,
+                    "name": "Dryooe Flyou KN-A d14-57 1",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1295,
+                    "estimated_mapping_value": 623789,
+                    "estimated_scan_value": 187137,
+                    "id": 108088358093017339,
+                    "id64": "108088358093017339",
+                    "is_terraformable": true,
+                    "name": "Dryooe Flyou KN-A d14-57 2",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1631,
+                    "estimated_mapping_value": 979663,
+                    "estimated_scan_value": 293899,
+                    "id": 216174749149909243,
+                    "id64": "216174749149909243",
+                    "is_terraformable": false,
+                    "name": "Dryooe Flyou KN-A d14-57 3",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                },
+                {
+                    "distance_to_arrival": 1635,
+                    "estimated_mapping_value": 978786,
+                    "estimated_scan_value": 293636,
+                    "id": 252203546168873211,
+                    "id64": "252203546168873211",
+                    "is_terraformable": false,
+                    "name": "Dryooe Flyou KN-A d14-57 4",
+                    "subtype": "Earth-like world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Dryooe Flyou KN-A d14-57",
+            "x": -9341.4375,
+            "y": -899.125,
+            "z": 19362.34375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 1856,
+                    "estimated_mapping_value": 1046386,
+                    "estimated_scan_value": 313916,
+                    "id": 324259903256219899,
+                    "id64": "324259903256219899",
+                    "is_terraformable": true,
+                    "name": "Dryooe Flyou KN-A d14-21 A 7",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Dryooe Flyou KN-A d14-21",
+            "x": -9330.625,
+            "y": -889.84375,
+            "z": 19408.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 266,
+                    "estimated_mapping_value": 933583,
+                    "estimated_scan_value": 280075,
+                    "id": 216173949639500322,
+                    "id64": "216173949639500322",
+                    "is_terraformable": true,
+                    "name": "Eol Prou TR-U c3-4 5",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 9,
+            "name": "Eol Prou TR-U c3-4",
+            "x": -9429.625,
+            "y": -906.84375,
+            "z": 19577.09375
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 432,
+                    "estimated_mapping_value": 603279,
+                    "estimated_scan_value": 180984,
+                    "id": 864693120614572586,
+                    "id64": "864693120614572586",
+                    "is_terraformable": true,
+                    "name": "Eol Prou XX-S c4-7 3",
+                    "subtype": "High metal content world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Eol Prou XX-S c4-7",
+            "x": -9425.09375,
+            "y": -907.96875,
+            "z": 19644.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 3307,
+                    "estimated_mapping_value": 997239,
+                    "estimated_scan_value": 299172,
+                    "id": 72058204986493068,
+                    "id64": "72058204986493068",
+                    "is_terraformable": true,
+                    "name": "Eol Prou FQ-Y e142 1",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Eol Prou FQ-Y e142",
+            "x": -9481.40625,
+            "y": -896.65625,
+            "z": 19676.125
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 354,
+                    "estimated_mapping_value": 840016,
+                    "estimated_scan_value": 252005,
+                    "id": 828662399383183930,
+                    "id64": "828662399383183930",
+                    "is_terraformable": true,
+                    "name": "Eol Prou CP-P c6-0 A 6",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Eol Prou CP-P c6-0",
+            "x": -9500.75,
+            "y": -904.03125,
+            "z": 19696.75
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 7725,
+                    "estimated_mapping_value": 918166,
+                    "estimated_scan_value": 275450,
+                    "id": 612491481965203747,
+                    "id64": "612491481965203747",
+                    "is_terraformable": true,
+                    "name": "Eol Prou SS-T d3-56 BC 4",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 3,
+            "name": "Eol Prou SS-T d3-56",
+            "x": -9496.8125,
+            "y": -921.875,
+            "z": 19766.1875
+        },
+        {
+            "bodies": [
+                {
+                    "distance_to_arrival": 513,
+                    "estimated_mapping_value": 990063,
+                    "estimated_scan_value": 297019,
+                    "id": 216172849993687618,
+                    "id64": "216172849993687618",
+                    "is_terraformable": true,
+                    "name": "Eol Prou FV-N c7-0 A 3",
+                    "subtype": "Water world",
+                    "type": "Planet"
+                }
+            ],
+            "jumps": 2,
+            "name": "Eol Prou FV-N c7-0",
+            "x": -9524.78125,
+            "y": -899.9375,
+            "z": 19765.5
+        },
+        {
+            "bodies": [],
+            "jumps": 2,
+            "name": "Colonia",
+            "x": -9530.5,
+            "y": -910.28125,
+            "z": 19808.125
+        }
+    ],
+    "status": "ok"
+}
