@@ -26,16 +26,17 @@ namespace Celeste.Services
             _eliteAPI.Start();
         }
 
-        private void OnSettingsChange(object sender, Models.Settings e)
+        private void OnSettingsChange(object sender, Models.Settings settings)
         {
             Console.WriteLine("[EliteApiService] Detected Settings Change");
-            DirectoryInfo journalDirectory = new DirectoryInfo(_settings.Get().JournalDirectory);
+            DirectoryInfo journalDirectory = new DirectoryInfo(settings.JournalDirectory);
             _eliteAPI.ChangeJournal(journalDirectory);
         }
 
         private void SetupEliteApi() 
         { 
-            Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
+            // TODO: Log to file when in release mode
+            //Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
             Logger.AddHandler(new ConsoleHandler(), Severity.Info, Severity.Verbose, Severity.Warning, Severity.Error, Severity.Success);
 
             _eliteAPI.OnReset += (s, e) => {
