@@ -43,9 +43,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   body {
     margin: 0;
     background-color: #1976d2;
+    display: flex;
+    align-items: stretch;
+  }
+
+  app-root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
   }
   
   .container {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
   }
@@ -178,21 +189,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border-radius: 2px;
     background-color: #EEEEEE;
   }
-
-  .vertical-spacer {
-      height: 100%;
-  }
   
   .backdrop {
-    width: 100%; 
-    overflow: hidden;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     background-color: #1976d2;
   }
   
   app-nav-rail {
-    height: 100%;
     width: 68px;
-    float: left;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -205,8 +212,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     text-align: center;
     font-size: smaller;
   }
-  
-  
+
+  .spacer {
+    flex-grow: 1;
+  }
+
   /*
   Copyright Google LLC. All Rights Reserved.
   Use of this source code is governed by an MIT-style license that
