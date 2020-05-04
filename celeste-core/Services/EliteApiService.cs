@@ -26,6 +26,12 @@ namespace Celeste.Services
             _eliteAPI.Start();
         }
 
+        internal void Stop()
+        {
+            Console.WriteLine("[EliteApiService] Stopping EliteAPI");
+            _eliteAPI.Stop();
+        }
+
         private void OnSettingsChange(object sender, Models.Settings settings)
         {
             Console.WriteLine("[EliteApiService] Detected Settings Change");

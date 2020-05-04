@@ -1,9 +1,17 @@
 
 using System.Threading.Tasks;
+using Celeste.Utility;
 
 namespace Celeste.Services {
 
-    public class VirtualControlsService {
+    public class VirtualControlsService
+    {
+        private readonly IVirtualControls _virtualControls;
+
+        public VirtualControlsService(IVirtualControls virtualControls)
+        {
+            _virtualControls = virtualControls;
+        }
 
         ///
         /// Relies on https://github.com/SimonCropp/TextCopy for Clipboard management

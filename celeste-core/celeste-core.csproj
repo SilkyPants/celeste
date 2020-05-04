@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Celeste</RootNamespace>
     <IsWindows Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Windows)))' == 'true'">true</IsWindows>
@@ -21,4 +21,7 @@
     <ProjectReference Include="..\modules\EliteAPI\EliteAPI\EliteAPI.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Utility\VirtualControls 2.cs" />
+  </ItemGroup>
 </Project>
