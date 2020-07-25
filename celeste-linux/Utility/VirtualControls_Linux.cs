@@ -6,6 +6,7 @@ namespace Celeste.Utility
         {
             get
             {
+                // TODO: Ensure ED is running
                 var proc = new System.Diagnostics.Process
                 {
                     StartInfo =

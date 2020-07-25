@@ -5,7 +5,6 @@ namespace Celeste.Utility
     {
         enum KeyState
         {
-            Tap,
             Down,
             Up
         }

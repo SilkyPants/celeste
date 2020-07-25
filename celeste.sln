@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "celeste-core", "celeste-core\celeste-core.csproj", "{02BABCDC-31EC-47AF-8531-D5C5A21ADC10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "celeste-core", "celeste-core\celeste-core.csproj", "{02BABCDC-31EC-47AF-8531-D5C5A21ADC10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EliteAPI", "modules\EliteAPI\EliteAPI\EliteAPI.csproj", "{43CC7143-7974-41D3-B663-5E53AB23385A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EliteAPI", "modules\EliteAPI\EliteAPI\EliteAPI.csproj", "{43CC7143-7974-41D3-B663-5E53AB23385A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "celeste-linux", "celeste-linux\celeste-linux.csproj", "{A728E963-C803-4503-BD87-08AC2CDAB3C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "celeste-linux", "celeste-linux\celeste-linux.csproj", "{A728E963-C803-4503-BD87-08AC2CDAB3C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "celeste-windows", "celeste-windows\celeste-windows.csproj", "{A519175E-6773-4584-B15C-FA271447AC5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{02BABCDC-31EC-47AF-8531-D5C5A21ADC10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +57,23 @@ Global
 		{A728E963-C803-4503-BD87-08AC2CDAB3C8}.Release|x64.Build.0 = Release|Any CPU
 		{A728E963-C803-4503-BD87-08AC2CDAB3C8}.Release|x86.ActiveCfg = Release|Any CPU
 		{A728E963-C803-4503-BD87-08AC2CDAB3C8}.Release|x86.Build.0 = Release|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Debug|x64.Build.0 = Debug|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Debug|x86.Build.0 = Debug|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Release|x64.ActiveCfg = Release|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Release|x64.Build.0 = Release|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Release|x86.ActiveCfg = Release|Any CPU
+		{A519175E-6773-4584-B15C-FA271447AC5C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DB50F23-5F93-44D6-9BA5-B78818362AD5}
 	EndGlobalSection
 EndGlobal

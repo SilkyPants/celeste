@@ -37,6 +37,7 @@ namespace Celeste
             services.AddSingleton(sp => settingsService);
             services.AddSingleton(sp => eliteApiService);
             services.AddSingleton<RoutePlanningService>();
+            services.AddSingleton<VirtualControlsService>();
 
             services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client => {
                 client.BaseAddress = new Uri("https://spansh.co.uk");
