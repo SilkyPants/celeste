@@ -14,6 +14,8 @@ namespace Celeste.Models
         public List<StarSystem> Systems { get; set; } = new List<StarSystem>();
 
         public Guid Id { get; set; } = Guid.NewGuid();
+
+        public string Name {get; set; } = "New Route";
     }
 
 

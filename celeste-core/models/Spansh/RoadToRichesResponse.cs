@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
@@ -35,7 +36,8 @@ namespace Celeste.Models.Spansh
         public Route ToRoute() {
             return new Route {
                 Id = new Guid(this.JobId),
-                Systems = this.Systems
+                Systems = this.Systems,
+                Name = $"{this.Systems.First().Name} -> {this.Systems.Last().Name}"
             };
         }
     }
