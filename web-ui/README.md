@@ -4,7 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## First things
 
-Run `npm i` to install all required modules
+* Ensure you have the Angular CLI tools installed. `npm i -g @angular/cli`
+* `cd web-ui`
+* Run `npm i` to install all required modules
 
 ## Development server
 
