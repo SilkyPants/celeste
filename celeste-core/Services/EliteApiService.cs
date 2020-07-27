@@ -18,8 +18,12 @@ namespace Celeste.Services
         {
             _settings = settings;
             _settings.OnSettingsChange += OnSettingsChange;
+
+            var config = new EliteConfiguration{
+                JournalDirectory = new DirectoryInfo(settings.Get().JournalDirectory)
+            };
             
-            _eliteAPI = new EliteDangerousAPI();
+            _eliteAPI = new EliteDangerousAPI(config);
 
             SetupEliteApi();
 
@@ -30,13 +34,15 @@ namespace Celeste.Services
         {
             Console.WriteLine("[EliteApiService] Detected Settings Change");
             DirectoryInfo journalDirectory = new DirectoryInfo(_settings.Get().JournalDirectory);
-            _eliteAPI.ChangeJournal(journalDirectory);
+            _eliteAPI.Config.JournalDirectory = journalDirectory;
+
+            if (!_eliteAPI.IsRunning) _eliteAPI.Start();
         }
 
         private void SetupEliteApi() 
         { 
             Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
-            Logger.AddHandler(new ConsoleHandler(), Severity.Info, Severity.Verbose, Severity.Warning, Severity.Error, Severity.Success);
+            Logger.AddHandler(new ConsoleHandler(), Severity.Special, Severity.Info, Severity.Verbose, Severity.Warning, Severity.Error, Severity.Success);
 
             _eliteAPI.OnReset += (s, e) => {
                 _eliteAPI.Events.CommanderEvent += HandleCommanderInfo;
