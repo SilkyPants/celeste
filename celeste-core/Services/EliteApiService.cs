@@ -9,6 +9,8 @@ namespace Celeste.Services
 {
     public class EliteApiService
     {
+        public string LogsPath => Directory.GetCurrentDirectory() + "/Logs/";
+        
         private readonly EliteDangerousAPI _eliteAPI;
         private readonly SettingsService _settings;
 
@@ -41,7 +43,12 @@ namespace Celeste.Services
 
         private void SetupEliteApi() 
         { 
-            Logger.AddHandler(new LogFileHandler(Directory.GetCurrentDirectory(), "EliteAPI"));
+
+            if (!Directory.Exists(LogsPath)) {
+                Directory.CreateDirectory(LogsPath);
+            }
+
+            Logger.AddHandler(new LogFileHandler(LogsPath, "EliteAPI"));
             Logger.AddHandler(new ConsoleHandler(), Severity.Special, Severity.Info, Severity.Verbose, Severity.Warning, Severity.Error, Severity.Success);
 
             _eliteAPI.OnReset += (s, e) => {
