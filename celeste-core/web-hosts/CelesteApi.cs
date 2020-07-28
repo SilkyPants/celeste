@@ -23,27 +23,28 @@ namespace Celeste
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddCors(options =>
-            // {
-            //     options.AddPolicy("CorsPolicy",
-            //         builder => builder.AllowAnyOrigin()
-            //         .AllowAnyMethod()
-            //         .AllowAnyHeader());
-            // });
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader());
+            });
 
-            // Specifically creating these so they are initialised ASAP
-            // SettingsService settingsService = new SettingsService();
-            // EliteApiService eliteApiService = new EliteApiService(settingsService);
+            //// Specifically creating these so they are initialised ASAP
+            SettingsService settingsService = new SettingsService();
+            EliteApiService eliteApiService = new EliteApiService(settingsService);
             
-            // services.AddSingleton(sp => settingsService);
-            // services.AddSingleton(sp => eliteApiService);
-            // services.AddSingleton<RoutePlanningService>();
+            services.AddSingleton(sp => settingsService);
+            services.AddSingleton(sp => eliteApiService);
+            services.AddSingleton<RoutePlanningService>();
 
-            // services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client => {
-            //     client.BaseAddress = new Uri("https://spansh.co.uk");
-            //     client.MaxResponseContentBufferSize = 256000;
-            // });
+            services.AddHttpClient<IRoadToRichesRouteService, RoadToRichesRouteService>(client => {
+                client.BaseAddress = new Uri("https://spansh.co.uk");
+                client.MaxResponseContentBufferSize = 256000;
+            });
 
+            // services.AddControllers();
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -68,7 +69,6 @@ namespace Celeste
 
             /// 
             /// SPA / Host Files
-            // app.UseDefaultFiles();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             if (!env.IsDevelopment())
@@ -78,9 +78,9 @@ namespace Celeste
             
             ///
             /// API
-            // app.UseCors("CorsPolicy");
+            app.UseCors("CorsPolicy");
             app.UseRouting();
-            // app.UseAuthorization();
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
