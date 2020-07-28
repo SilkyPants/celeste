@@ -28,7 +28,7 @@ import { PilotJournalComponent } from './pilot-journal/pilot-journal.component';
       PilotJournalComponent
    ],
    imports: [
-	 BrowserModule,
+   BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
 	 AppRoutingModule,
 	 FormsModule,
 	 HttpClientModule,

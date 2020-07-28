@@ -30,9 +30,9 @@ namespace Celeste
             .ConfigureWebHostDefaults(webBuilder =>
             {
                 webBuilder
-                .UseStartup<CelesteApi>()
-                .UseWebRoot("web-ui")
-                .UseUrls("https://*:5001","http://*:5000");
+                .UseStartup<CelesteApi>();
+                // .UseWebRoot("web-ui")
+                //.UseUrls("https://*:5001","http://*:5000");
             }).Build();
     }
 }

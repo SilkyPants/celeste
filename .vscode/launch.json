@@ -5,18 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "npm start",
-            "name": "Launch Development server",
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
             "request": "launch",
-            "cwd": "${workspaceFolder}/web-ui",
-            "type": "node-terminal"
-        },
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Attach Chrome",
-            "url": "http://localhost:4200",
-            "webRoot": "${workspaceFolder}"
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/celeste-core/bin/Debug/netcoreapp3.1/celeste.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/celeste-core",
+            "stopAtEntry": false,
+            // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
         },
         {
             "name": ".NET Core Launch (console)",
