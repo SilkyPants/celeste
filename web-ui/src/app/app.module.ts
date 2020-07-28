@@ -11,23 +11,33 @@ import { MatButtonModule } from '@angular/material/button'
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { NavRailComponent } from './nav-rail/nav-rail.component';
+import { SettingsPageComponent } from './settings-page/settings-page.component';
+import { RouteListComponent } from './route-list/route-list.component';
+import { EliteJournalEventListComponent } from './elite-journal-event-list/elite-journal-event-list.component';
+import { PilotJournalComponent } from './pilot-journal/pilot-journal.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    TopBarComponent,
-    ProductListComponent,
-    NavRailComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    HttpClientModule,
-    BrowserAnimationsModule,
-    MatButtonModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      TopBarComponent,
+      ProductListComponent,
+      NavRailComponent,
+      SettingsPageComponent,
+      RouteListComponent,
+      EliteJournalEventListComponent,
+      PilotJournalComponent
+   ],
+   imports: [
+	 BrowserModule,
+	 AppRoutingModule,
+	 FormsModule,
+	 HttpClientModule,
+	 BrowserAnimationsModule,
+	 MatButtonModule
+	],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }
