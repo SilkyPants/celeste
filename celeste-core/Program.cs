@@ -31,8 +31,6 @@ namespace Celeste
             {
                 webBuilder
                 .UseStartup<CelesteApi>();
-                // .UseWebRoot("web-ui")
-                //.UseUrls("https://*:5001","http://*:5000");
             }).Build();
     }
 }
