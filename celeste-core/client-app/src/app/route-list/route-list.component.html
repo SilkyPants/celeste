@@ -1,4 +1,4 @@
-<h1 id="tableLabel">Routes</h1>
+e<h1 id="tableLabel">Routes</h1>
 
 <p *ngIf="!routes"><em>Loading...</em></p>
 
@@ -6,13 +6,19 @@
   <thead>
     <tr>
       <th>Route Name</th>
-      <th># of Systems</th>
+      <th># of Stops</th>
+      <th># of Jumps</th>
+      <th># of Stops</th>
+      <th># Visited</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let route of routes">
       <td>{{ route.name }}</td>
       <td>{{ route.systems.length }}</td>
+      <td>{{ route.totalJumps }}</td>
+      <td>{{ route.totalBodies }}</td>
+      <td>{{ route.totalVisited }}</td>
     </tr>
   </tbody>
 </table>

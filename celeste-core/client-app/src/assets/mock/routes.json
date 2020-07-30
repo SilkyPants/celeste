@@ -1,0 +1,474 @@
+[
+    {
+        "systems": [
+            {
+                "bodies": [],
+                "jumps": 1,
+                "name": "Sol",
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4013,
+                        "estimatedScanValue": 1204,
+                        "id": 670686061993,
+                        "id64": "670686061993",
+                        "isTerraformable": false,
+                        "name": "G 202-48",
+                        "subtype": "M (Red dwarf) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 3,
+                "name": "G 202-48",
+                "x": -15.53125,
+                "y": 14.375,
+                "z": 1.875
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4043,
+                        "estimatedScanValue": 1213,
+                        "id": 36029155682292430,
+                        "id64": "36029155682292434",
+                        "isTerraformable": false,
+                        "name": "Connla A",
+                        "subtype": "K (Yellow-Orange) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 3,
+                "name": "Connla",
+                "x": -29.90625,
+                "y": 14.5625,
+                "z": 13.65625
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4019,
+                        "estimatedScanValue": 1206,
+                        "id": 670417692073,
+                        "id64": "670417692073",
+                        "isTerraformable": false,
+                        "name": "Wolf 654",
+                        "subtype": "M (Red dwarf) Star",
+                        "type": "Star",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 30,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 1.801446555125119E+17,
+                        "id64": "180144655512511913",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 1",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 45,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 2.1617345253147587E+17,
+                        "id64": "216173452531475881",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 2",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 69,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 2.5220224955043984E+17,
+                        "id64": "252202249550439849",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 3",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 123,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 2.8823104656940384E+17,
+                        "id64": "288231046569403817",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 4",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 124,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 3.242598435883678E+17,
+                        "id64": "324259843588367785",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 4 a",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 172,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 3.602886406073318E+17,
+                        "id64": "360288640607331753",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 5",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 210,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 3.9631743762629574E+17,
+                        "id64": "396317437626295721",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 6",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 314,
+                        "estimatedMappingValue": 1716,
+                        "estimatedScanValue": 515,
+                        "id": 4.323462346452597E+17,
+                        "id64": "432346234645259689",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 7",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 631,
+                        "estimatedMappingValue": 1776,
+                        "estimatedScanValue": 533,
+                        "id": 4.683750316642237E+17,
+                        "id64": "468375031664223657",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 8",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 1606,
+                        "estimatedMappingValue": 9159,
+                        "estimatedScanValue": 2748,
+                        "id": 5.0440382868318765E+17,
+                        "id64": "504403828683187625",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 9",
+                        "subtype": "Class I gas giant",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 2220,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 6.124902197400795E+17,
+                        "id64": "612490219740079529",
+                        "isTerraformable": false,
+                        "name": "Wolf 654 10",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    }
+                ],
+                "jumps": 1,
+                "name": "Wolf 654",
+                "x": -28.46875,
+                "y": 22.40625,
+                "z": 14.8125
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4013,
+                        "estimatedScanValue": 1204,
+                        "id": 36029467436656050,
+                        "id64": "36029467436656049",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A",
+                        "subtype": "M (Red dwarf) Star",
+                        "type": "Star",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 392,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 1.0808706147458398E+17,
+                        "id64": "108087061474583985",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 1",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 549,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 1.4411585849354797E+17,
+                        "id64": "144115858493547953",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 2",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 773,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 1.8014465551251194E+17,
+                        "id64": "180144655512511921",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 3",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 1224,
+                        "estimatedMappingValue": 1696,
+                        "estimatedScanValue": 509,
+                        "id": 2.161734525314759E+17,
+                        "id64": "216173452531475889",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 4",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 2281,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 2.5220224955043987E+17,
+                        "id64": "252202249550439857",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 5",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 2960,
+                        "estimatedMappingValue": 1666,
+                        "estimatedScanValue": 500,
+                        "id": 3.242598435883678E+17,
+                        "id64": "324259843588367793",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 6 a",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 2961,
+                        "estimatedMappingValue": 1673,
+                        "estimatedScanValue": 502,
+                        "id": 2.8823104656940384E+17,
+                        "id64": "288231046569403825",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 6",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 4042,
+                        "estimatedMappingValue": 1743,
+                        "estimatedScanValue": 523,
+                        "id": 3.602886406073318E+17,
+                        "id64": "360288640607331761",
+                        "isTerraformable": false,
+                        "name": "Ross 863 A 7",
+                        "subtype": "Icy body",
+                        "type": "Planet",
+                        "visited": false
+                    }
+                ],
+                "jumps": 2,
+                "name": "Ross 863",
+                "x": -25.15625,
+                "y": 22.8125,
+                "z": 27.3125
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4016,
+                        "estimatedScanValue": 1205,
+                        "id": 72058264455620030,
+                        "id64": "72058264455620025",
+                        "isTerraformable": false,
+                        "name": "BD+11 3149 A",
+                        "subtype": "M (Red dwarf) Star",
+                        "type": "Star",
+                        "visited": false
+                    },
+                    {
+                        "distanceToArrival": 328,
+                        "estimatedMappingValue": 3999,
+                        "estimatedScanValue": 1200,
+                        "id": 1.08087061474584E+17,
+                        "id64": "108087061474583993",
+                        "isTerraformable": false,
+                        "name": "BD+11 3149 B",
+                        "subtype": "T (Brown dwarf) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 2,
+                "name": "BD+11 3149",
+                "x": -28.125,
+                "y": 25.0625,
+                "z": 44.125
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4013,
+                        "estimatedScanValue": 1204,
+                        "id": 2869709317561,
+                        "id64": "2869709317561",
+                        "isTerraformable": false,
+                        "name": "LHS 3398",
+                        "subtype": "M (Red dwarf) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 4,
+                "name": "LHS 3398",
+                "x": -13.625,
+                "y": -3.25,
+                "z": 39.625
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4026,
+                        "estimatedScanValue": 1208,
+                        "id": 36029980316013270,
+                        "id64": "36029980316013274",
+                        "isTerraformable": false,
+                        "name": "LHS 3470 A",
+                        "subtype": "K (Yellow-Orange) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 3,
+                "name": "LHS 3470",
+                "x": -31.4375,
+                "y": -6.53125,
+                "z": 34.40625
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4063,
+                        "estimatedScanValue": 1219,
+                        "id": 2759256443243,
+                        "id64": "2759256443243",
+                        "isTerraformable": false,
+                        "name": "Wolf 866",
+                        "subtype": "G (White-Yellow) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 2,
+                "name": "Wolf 866",
+                "x": -48.125,
+                "y": -8.03125,
+                "z": 31.28125
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4066,
+                        "estimatedScanValue": 1220,
+                        "id": 2415659059563,
+                        "id64": "2415659059563",
+                        "isTerraformable": false,
+                        "name": "HR 7162",
+                        "subtype": "F (White) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 3,
+                "name": "HR 7162",
+                "x": -42.34375,
+                "y": 10.84375,
+                "z": 21.03125
+            },
+            {
+                "bodies": [
+                    {
+                        "distanceToArrival": 0,
+                        "estimatedMappingValue": 4053,
+                        "estimatedScanValue": 1216,
+                        "id": 36029288532674920,
+                        "id64": "36029288532674923",
+                        "isTerraformable": false,
+                        "name": "Dahomey A",
+                        "subtype": "G (White-Yellow) Star",
+                        "type": "Star",
+                        "visited": false
+                    }
+                ],
+                "jumps": 1,
+                "name": "Dahomey",
+                "x": -46.625,
+                "y": 7.21875,
+                "z": 20.40625
+            },
+            {
+                "bodies": [],
+                "jumps": 2,
+                "name": "Neto",
+                "x": -41.1875,
+                "y": 7.65625,
+                "z": 36.3125
+            }
+        ],
+        "id": "a477c504-d238-11ea-9655-2a6e94eb4526",
+        "name": "Sol -> Neto"
+    }
+]
