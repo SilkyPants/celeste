@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HeaderTitleService } from '../services/header-title-service';
 
 @Component({
   selector: 'app-top-bar',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./top-bar.component.scss']
 })
 export class TopBarComponent implements OnInit {
+  title = ''
 
-  constructor() { }
+  constructor(private headerTitleService: HeaderTitleService) { }
 
   ngOnInit() {
+    this.headerTitleService.title.subscribe(updatedTitle => { this.title = updatedTitle})
   }
 
 }

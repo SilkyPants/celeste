@@ -1,22 +1,34 @@
-import { Component, Inject, SystemJsNgModuleLoader } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { MatTableDataSource } from '@angular/material/table';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators'
 import { StarRoute } from '../models/star-route';
+import { StarRoutesDataSource } from '../data-source/star-routes-data-source';
+import { StarRoutesService } from '../services/star-routes-service';
+import { HeaderTitleService } from '../services/header-title-service';
 
 @Component({
   selector: 'app-route-list',
   templateUrl: './route-list.component.html',
   styleUrls: ['./route-list.component.scss']
 })
-export class RouteListComponent {
-  public routes: Observable<StarRoute[]>;
+export class RouteListComponent implements OnInit {
 
-  constructor(http: HttpClient, @Inject('BASE_URL') baseUrl: string) {
-    // http.get<StarRoute[]>(baseUrl + 'api/routeplanning').pipe(map(result => {
-    this.routes = http.get<StarRoute[]>('/assets//mock/routes.json').pipe(map(result => {
-      return result.map(x => new StarRoute(x));
-    }, error => console.error(error)));  
+  displayedColumns = ['name', 'totalSystems', 'totalJumps', 'totalStops', 'totalVisited'];
+  dataSource: StarRoutesDataSource;
+
+  constructor(private starRoutesService: StarRoutesService, private headerTitleService: HeaderTitleService) { }
+
+  ngOnInit() { 
+    this.headerTitleService.setTitle('Routes')
+
+    this.dataSource = new StarRoutesDataSource(this.starRoutesService)
+    this.dataSource.loadRoutes();
+  }
+
+  onRowClicked(row) {
+    console.log('Row clicked: ', row);
   }
 }
 

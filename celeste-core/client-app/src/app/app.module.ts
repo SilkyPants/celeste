@@ -6,8 +6,6 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatButtonModule } from '@angular/material/button'
-
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { NavRailComponent } from './nav-rail/nav-rail.component';
@@ -15,6 +13,12 @@ import { SettingsPageComponent } from './settings-page/settings-page.component';
 import { RouteListComponent } from './route-list/route-list.component';
 import { EliteJournalEventListComponent } from './elite-journal-event-list/elite-journal-event-list.component';
 import { PilotJournalComponent } from './pilot-journal/pilot-journal.component';
+import { MatTableModule } from '@angular/material/table';
+import { MatButtonModule } from '@angular/material/button';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatInputModule } from '@angular/material/input';
+import { StarRoutesService } from './services/star-routes-service';
+import { HeaderTitleService } from './services/header-title-service';
 
 @NgModule({
    declarations: [
@@ -28,14 +32,20 @@ import { PilotJournalComponent } from './pilot-journal/pilot-journal.component';
       PilotJournalComponent
    ],
    imports: [
-   BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
-	 AppRoutingModule,
-	 FormsModule,
-	 HttpClientModule,
-	 BrowserAnimationsModule,
-	 MatButtonModule
-	],
-   providers: [],
+      BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
+      AppRoutingModule,
+      FormsModule,
+      HttpClientModule,
+      BrowserAnimationsModule,
+      MatButtonModule,
+      MatTableModule,
+      MatProgressSpinnerModule,
+      MatInputModule
+   ],
+   providers: [
+      StarRoutesService,
+      HeaderTitleService
+   ],
    bootstrap: [
       AppComponent
    ]

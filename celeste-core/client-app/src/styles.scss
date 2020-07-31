@@ -63,7 +63,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   
   router-outlet + *  {
     padding: 16pt;
-    padding-top: 0pt;
     border-top-left-radius: 16pt;
     border-bottom-left-radius: 16pt;
     background-color: #ffffff;
