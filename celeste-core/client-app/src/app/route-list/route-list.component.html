@@ -1,8 +1,8 @@
-e<h1 id="tableLabel">Routes</h1>
+<h1 id="tableLabel">Routes</h1>
 
-<p *ngIf="!routes"><em>Loading...</em></p>
+<p *ngIf="!(routes | async)"><em>Loading...</em></p>
 
-<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="routes">
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="routes | async">
   <thead>
     <tr>
       <th>Route Name</th>
@@ -13,7 +13,7 @@ e<h1 id="tableLabel">Routes</h1>
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let route of routes">
+    <tr *ngFor="let route of routes | async">
       <td>{{ route.name }}</td>
       <td>{{ route.systems.length }}</td>
       <td>{{ route.totalJumps }}</td>
