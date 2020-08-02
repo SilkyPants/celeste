@@ -13,12 +13,14 @@ import { SettingsPageComponent } from './settings-page/settings-page.component';
 import { RouteListComponent } from './route-list/route-list.component';
 import { EliteJournalEventListComponent } from './elite-journal-event-list/elite-journal-event-list.component';
 import { PilotJournalComponent } from './pilot-journal/pilot-journal.component';
+import { StarRoutesService } from './services/star-routes.service';
+import { HeaderTitleService } from './services/header-title.service';
+
 import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatInputModule } from '@angular/material/input';
-import { StarRoutesService } from './services/star-routes.service';
-import { HeaderTitleService } from './services/header-title.service';
+import { MatCardModule } from '@angular/material/card'
 
 @NgModule({
    declarations: [
@@ -40,7 +42,8 @@ import { HeaderTitleService } from './services/header-title.service';
       MatButtonModule,
       MatTableModule,
       MatProgressSpinnerModule,
-      MatInputModule
+      MatInputModule,
+      MatCardModule,
    ],
    providers: [
       StarRoutesService,

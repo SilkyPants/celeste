@@ -50,6 +50,14 @@
             "processId": "${command:pickProcess}"
         },
         {
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "name": "Firefox",
+            "url": "https://localhost:5001",
+            "webRoot": "${workspaceFolder}/celeste-core/client-app"
+        },
+        {
             "name": "Chrome",
             "request": "launch",
             "type": "pwa-chrome",
@@ -60,7 +68,7 @@
     "compounds": [
         {
             "name": "Full stack",
-            "configurations": [".NET Core Launch (web)", "Chrome"]
+            "configurations": [".NET Core Launch (web)", "Firefox"]
         }
     ]
 }
