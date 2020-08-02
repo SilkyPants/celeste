@@ -1,12 +1,7 @@
-import { Component, Inject, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { MatTableDataSource } from '@angular/material/table';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs/operators'
-import { StarRoute } from '../models/star-route';
-import { StarRoutesDataSource } from '../data-source/star-routes-data-source';
-import { StarRoutesService } from '../services/star-routes-service';
-import { HeaderTitleService } from '../services/header-title-service';
+import { Component, OnInit } from '@angular/core';
+import { StarRoutesDataSource } from '../data-source/star-routes.data-source';
+import { StarRoutesService } from '../services/star-routes.service';
+import { HeaderTitleService } from '../services/header-title.service';
 
 @Component({
   selector: 'app-route-list',

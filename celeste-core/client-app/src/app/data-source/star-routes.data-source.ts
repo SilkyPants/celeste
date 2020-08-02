@@ -1,7 +1,7 @@
 import {CollectionViewer, DataSource} from "@angular/cdk/collections";
 import { StarRoute } from '../models/star-route';
 import { BehaviorSubject, Observable, of } from 'rxjs';
-import { StarRoutesService } from '../services/star-routes-service';
+import { StarRoutesService } from '../services/star-routes.service';
 import { catchError, finalize } from 'rxjs/operators';
 
 export class StarRoutesDataSource implements DataSource<StarRoute> {

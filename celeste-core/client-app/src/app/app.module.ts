@@ -17,8 +17,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatInputModule } from '@angular/material/input';
-import { StarRoutesService } from './services/star-routes-service';
-import { HeaderTitleService } from './services/header-title-service';
+import { StarRoutesService } from './services/star-routes.service';
+import { HeaderTitleService } from './services/header-title.service';
 
 @NgModule({
    declarations: [

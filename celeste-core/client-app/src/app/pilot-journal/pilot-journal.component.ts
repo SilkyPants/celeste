@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HeaderTitleService } from '../services/header-title-service';
+import { HeaderTitleService } from '../services/header-title.service';
 
 @Component({
   selector: 'app-pilot-journal',
