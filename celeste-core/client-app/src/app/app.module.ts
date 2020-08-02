@@ -7,7 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { TopBarComponent } from './top-bar/top-bar.component';
-import { ProductListComponent } from './product-list/product-list.component';
 import { NavRailComponent } from './nav-rail/nav-rail.component';
 import { SettingsPageComponent } from './settings-page/settings-page.component';
 import { RouteListComponent } from './route-list/route-list.component';
@@ -20,18 +19,23 @@ import { MatTableModule } from '@angular/material/table';
 import { MatButtonModule } from '@angular/material/button';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatInputModule } from '@angular/material/input';
-import { MatCardModule } from '@angular/material/card'
+import { MatCardModule } from '@angular/material/card';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { LayoutModule } from '@angular/cdk/layout'
 
 @NgModule({
    declarations: [
       AppComponent,
       TopBarComponent,
-      ProductListComponent,
       NavRailComponent,
       SettingsPageComponent,
       RouteListComponent,
       EliteJournalEventListComponent,
-      PilotJournalComponent
+      PilotJournalComponent,
+      DashboardComponent
    ],
    imports: [
       BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -44,6 +48,10 @@ import { MatCardModule } from '@angular/material/card'
       MatProgressSpinnerModule,
       MatInputModule,
       MatCardModule,
+      MatGridListModule,
+      MatMenuModule,
+      MatIconModule,
+      LayoutModule,
    ],
    providers: [
       StarRoutesService,
