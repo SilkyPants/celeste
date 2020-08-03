@@ -22,7 +22,7 @@ namespace Celeste.Services
             _settings.OnSettingsChange += OnSettingsChange;
 
             var config = new EliteConfiguration{
-                JournalDirectory = new DirectoryInfo(settings.Get().JournalDirectory)
+                JournalDirectory = new DirectoryInfo(settings.Get().JournalDirectory ?? "")
             };
             
             _eliteAPI = new EliteDangerousAPI(config);
@@ -35,7 +35,7 @@ namespace Celeste.Services
         private void OnSettingsChange(object sender, Models.Settings e)
         {
             Console.WriteLine("[EliteApiService] Detected Settings Change");
-            DirectoryInfo journalDirectory = new DirectoryInfo(_settings.Get().JournalDirectory);
+            DirectoryInfo journalDirectory = new DirectoryInfo(_settings.Get().JournalDirectory ?? "");
             _eliteAPI.Config.JournalDirectory = journalDirectory;
 
             if (!_eliteAPI.IsRunning) _eliteAPI.Start();
