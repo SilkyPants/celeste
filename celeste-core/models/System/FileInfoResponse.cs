@@ -5,13 +5,11 @@ namespace Celeste.Models.Instance
     {
         public string Parent { get; private set; }
 
-        public FileInfo[] Directories { get; private set; }
-        public FileInfo[] Files { get; private set; }
+        public FileInfo[] Elements { get; private set; }
 
-        public FileInfoResponse(string parent, FileInfo[] directories, FileInfo[] files) {
+        public FileInfoResponse(string parent, FileInfo[] elements) {
             Parent = parent;
-            Directories = directories;
-            Files = files;
+            Elements = elements;
         }
     }
 }

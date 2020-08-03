@@ -19,12 +19,14 @@ namespace Celeste.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get([FromQuery(Name = "includeFiles")] bool includeFiles = false, [FromQuery(Name = "path")] string path = "")
+        public IActionResult Get(
+            [FromQuery(Name = "includeFiles")] bool includeFiles = false, 
+            [FromQuery(Name = "path")] string path = ""
+        )
         {
 
             string parentPath = null;
-            FileInfo[] directories = null;
-            FileInfo[] files = null;
+            System.Collections.Generic.List<FileInfo> elements = null;
 
             _logger.LogInformation("Querying file system info for {0}", path);
 
@@ -34,35 +36,39 @@ namespace Celeste.Controllers
                 if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
                     // Return Drives (C:\ D:\ W:\ etc)
-                    directories = System.IO.Directory.GetLogicalDrives()
-                        .Select(dir => new FileInfo(name: dir, path: dir, isFolder: true)).ToArray();
+                    elements = System.IO.Directory.GetLogicalDrives()
+                        .Select(dir => new FileInfo(name: dir, path: dir, isFolder: true)).ToList();
                 }
                 else
                 {
                     // Return listing from root '/' 
                     var cwd = new System.IO.DirectoryInfo("/");
-                    directories = cwd.GetDirectories()
-                        .Select(dir => new FileInfo(name: dir.Name, path: dir.FullName, isFolder: true)).ToArray();
+                    elements = cwd.GetDirectories()
+                        .Select(dir => new FileInfo(name: dir.Name, path: dir.FullName, isFolder: true)).ToList();
                 }
             }
             else
             {
                 // Showing from given path
                 var cwd = new System.IO.DirectoryInfo(path);
-                directories = cwd.GetDirectories()
-                    .Select(dir => new FileInfo(name: dir.Name, path: dir.FullName, isFolder: true)).ToArray();
+                elements = cwd.GetDirectories()
+                    .Where(dir => dir.Attributes.HasFlag(System.IO.FileAttributes.Hidden) == false && dir.Attributes.HasFlag(System.IO.FileAttributes.System) == false) // Do not include hidden folders
+                    .Select(dir => new FileInfo(name: dir.Name, path: dir.FullName, isFolder: true)).ToList();
 
-                files = includeFiles ? cwd.GetFiles()
-                    .Select(file => new FileInfo(name: file.Name, path: file.FullName, isFolder: false)).ToArray() : null;
+                if (includeFiles) {
+                    var files = cwd.GetFiles()
+                        .Select(file => new FileInfo(name: file.Name, path: file.FullName, isFolder: false));
 
-                parentPath = cwd.Parent.FullName;
+                        elements.AddRange(files);
+                }
+
+                parentPath = cwd.Parent?.FullName;
             }
 
             return Ok(
                 new FileInfoResponse(
                     parent: parentPath,
-                    directories: directories,
-                    files: files
+                    elements: elements.ToArray()
                 )
             );
         }
