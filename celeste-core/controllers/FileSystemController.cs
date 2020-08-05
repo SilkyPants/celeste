@@ -49,6 +49,10 @@ namespace Celeste.Controllers
             }
             else
             {
+                if (!System.IO.Directory.Exists(path)) {
+                    return BadRequest();
+                }
+
                 // Showing from given path
                 var cwd = new System.IO.DirectoryInfo(path);
                 elements = cwd.GetDirectories()
